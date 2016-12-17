@@ -1,0 +1,15 @@
+1. fix viewport for <= 1024 or whatever my phone default is
+2. Resize the header image to various widths to accommodate various browser viewports
+3. fix the cost table at smaller sizes (needs to be reworked possibly)
+4. Hamburger menu when too small
+   4.1 Add a menu item that is hidden until the viewport is small enough that triggers it
+   4.2 Overlay screen(?)
+
+Confluent site:
+x footer doesn't stick to bottom on phone (do full height site)
+x "smaller" font size below sizing chart isn't smaller on phone; use em
+x Change 5 days (punch card) to 5 days, and move "punch card" to asterisk definition
+x Change asterisk definition to "Non-consecutive; you get a punch card"
+x Add meta tag for site description
+x Add meta viewport tag
+
