@@ -1,0 +1,16 @@
+<div style="overflow: hidden; height: 440px; width: 100%;">
+<div id="gmap_pano" style="height: 440px; width: 100%;"></div>
+</div>
+
+			</div> <!-- .et_pb_text -->
+			</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_3  et_pb_column_2">
+				
+				<div class="et_pb_text et_pb_module et_pb_bg_layout_light et_pb_text_align_left  et_pb_text_2">
+				
+<div style="overflow: hidden; height: 440px; width: 100%;">
+<div id="gmap_canvas" style="height: 440px; width: 100%;"></div>
+</div>
+<p><script type="text/javascript">// <![CDATA[
+function init_map(){ var myOptions = { zoom:17, center:new google.maps.LatLng(46.286,-119.276755), mapTypeId: google.maps.MapTypeId.ROADMAP }; map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions); var panorama = new google.maps.StreetViewPanorama( document.getElementById('gmap_pano'), { position: new google.maps.LatLng(46.285552,-119.276755), pov: { heading: 180, pitch: 10 } }); map.setStreetView(panorama); }
+// ]]&gt;</script><br />
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDl0BZh2R8Ke4cdHhVEWFTn_Z-UpM1SR0Y&amp;callback=init_map" async="" defer="defer"></script></p>
