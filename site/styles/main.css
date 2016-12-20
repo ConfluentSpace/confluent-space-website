@@ -75,6 +75,10 @@ body {
     margin: 0;
 }
 
+.smallscreens {
+    display: none;
+}
+
 header, section, .callout > div, #memberships, footer div {
     box-sizing: border-box;
     width: 100%;
@@ -129,10 +133,6 @@ header a, header .fa {
     line-height: 1em;
     text-decoration: none;
     color: inherit;
-}
-
-header .touchable {
-    display: none;
 }
 
 header h2 {
@@ -318,7 +318,7 @@ address {
 }
 
 .callout a {
-    margin: 0 auto;
+    align-self: center;
     padding: .3em 1em;
     font-size: 1.25em;
     text-decoration: none;
@@ -328,7 +328,7 @@ address {
 }
 
 #memberships {
-    margin-bottom: 3em;
+    margin-bottom: 2.5em;
     padding: 0 40px;
     color: white;
 }
@@ -338,13 +338,33 @@ address {
 }
 
 #memberships table {
-    width: 100%;
+    display: inline-table;
     table-layout: fixed;
+    /* Should be 378px and the next width 199px but this ensures the last box isn't
+       knocked down to the next line by a pixel difference in rendering, just in case. */
+    width: 377px;
+    vertical-align: top;
+    margin-right: -.25em;
+    line-height: 1.4em;
     color: black;
-    border-spacing: .5em 0;
+    border-spacing: 0;
+}
+
+#memberships table:first-of-type th:first-child {
+    width: 198px;
+    padding-left: 0;
+}
+
+#memberships table:first-of-type th:last-child, #memberships table:first-of-type td:last-child, #memberships table ~ table {
+    width: 179px;
+}
+
+#memberships table ~ table {
+    margin-left: 8px;
 }
 
 #memberships thead th {
+    height: 3.3em;
     background: white;
 }
 
@@ -353,9 +373,13 @@ address {
 }
 
 #memberships td, #memberships th {
-    width: 20%;
+    box-sizing: border-box;
     padding: .25em .5em;
     text-align: center;
+}
+
+#memberships table ~ table thead th:first-child, #memberships table ~ table tbody th {
+    display: none;
 }
 
 #memberships tbody th {
@@ -391,6 +415,65 @@ address {
     margin-top: -1em;
 }
 
+.fineprint:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 1023px) {
+    #memberships table {
+        display: table;
+        transform: translateX(-99px);
+        margin: 0 auto;
+        margin-bottom: 1em;
+    }
+
+    #memberships table:last-of-type {
+        margin-bottom: 0;
+    }
+
+    #memberships table ~ table thead tr th:first-child, #memberships table ~ table tbody tr th {
+        display: table-cell;
+    }
+
+    #memberships table th:first-child {
+        width: 198px;
+        padding-left: 0;
+    }
+
+    #memberships table tr th:last-child, #memberships table tr td:last-child {
+        width: 179px;
+    }
+
+    #memberships table ~ table {
+        width: 377px;
+        margin-left: auto;
+    }
+
+    table + .fineprint {
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+    }
+
+    .fineprint {
+        margin-left: 0;
+    }
+}
+
+/* Just like the timing chip. Sort of. */
+@media (max-width: 555px) {
+    #memberships {
+        padding: 0;
+    }
+
+    #memberships table {
+        transform: none;
+    }
+
+    .fineprint {
+        margin-left: 1em;
+    }
+}
+
 body:after {
     content: "";
     flex-grow: 1;
@@ -399,7 +482,7 @@ body:after {
 
 footer {
     order: 1;
-    padding: 40px 0;
+    padding: 2.5em 0;
     background: black;
 }
 
