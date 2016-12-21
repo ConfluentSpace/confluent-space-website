@@ -173,7 +173,6 @@ header h2 {
         right: -1.3em;
         height: 2.6em;
         overflow: hidden;
-        text-align: right;
         border-radius: 5px;
     }
 
@@ -191,8 +190,13 @@ header h2 {
         padding-bottom: .65em;
     }
 
+    header li.subpage {
+        padding-left: 1.95em;
+    }
+
     header li:first-child {
         padding-top: .65em;
+        text-align: right;
         cursor: pointer;
     }
 
