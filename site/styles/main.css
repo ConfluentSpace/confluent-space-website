@@ -584,9 +584,9 @@ footer.business-info address {
 }
 
 @media (max-width: 460px) {
-    section.business-info {
+    section.business-info dl {
         /* Turn the labels into bullets hanging off the left to prevent a horizontal scrollbar. */
-        margin-lef: 2.03571em;
+        margin-left: -2.03571em;
     }
 
     footer.business-info > div {
