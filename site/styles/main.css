@@ -174,12 +174,12 @@ header h2 {
         height: 2.6em;
         overflow: hidden;
         text-align: right;
-        text-shadow: none;
         border-radius: 5px;
     }
 
     header ul.open {
         height: auto;
+        text-shadow: none;
         background: black;
     }
 
