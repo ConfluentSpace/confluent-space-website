@@ -11,6 +11,7 @@
         <meta name="twitter:title" content="Confluent Space"/>
         <meta name="twitter:description" content="Confluent Space"/>
         <meta name="twitter:card" content="summary_large_image"/>
+        <script src="scripts/menu.js"></script>
         <link rel="stylesheet" href="styles/font-awesome.min.css">
         <link rel="stylesheet" href="styles/main.css">
     </head>
@@ -18,8 +19,8 @@
         <header>
             <a href="/"><h1>Confluent</h1></a>
             <nav>
-                <ul>
-                    <li class="smallscreens"><i class="fa fa-bars"><span>Menu</span></i></li>
+                <ul id="menu">
+                    <li class="smallscreens"><i id="menu-toggle" class="fa fa-bars"><span>Menu</span></i></li>
                     <li><a href="/about-us">About</a></li>
                     <li class="smallscreens subpage"><a href="/photolog">Photo Log</a></li>
                     <li class="smallscreens subpage"><a href="/projects">Projects</a></li>
@@ -118,8 +119,8 @@
                         <td><i class="fa fa-check"><span>yes</span></i> + Usage Charges</td>
                     </tr>
                 </tbody>
-            </table>
-            <table>
+            </table><!--
+         --><table>
                 <thead>
                     <tr>
                         <th></th>
@@ -164,8 +165,8 @@
                         <td><i class="fa fa-check"><span>yes</span></i> + Usage Charges</td>
                     </tr>
                 </tbody>
-            </table>
-            <table>
+            </table><!--
+         --><table>
                 <thead>
                     <tr>
                         <th></th>
@@ -210,8 +211,8 @@
                         <td>&nbsp;</td>
                     </tr>
                 </tbody>
-            </table>
-            <table>
+            </table><!--
+         --><table>
                 <thead>
                     <tr>
                         <th></th>
@@ -283,5 +284,6 @@
                 </ul>
             </div>
         </footer>
+        <script>document.body.appendChild(document.createTextNode(window.innerWidth));</script>
     </body>
 </html>

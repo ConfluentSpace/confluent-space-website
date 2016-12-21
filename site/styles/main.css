@@ -117,8 +117,6 @@ header ul {
 }
 
 header li {
-    display: flex;
-    align-items: flex-end;
     padding: 0 1.3em;
 }
 
@@ -158,6 +156,48 @@ header h2 {
 
     header ul {
         height: 6vw;
+    }
+}
+
+@media (max-width: 970px) {
+    header nav {
+        position: relative;
+        overflow: visible;
+    }
+
+    header ul {
+        flex-direction: column;
+        justify-content: flex-start;
+        position: absolute;
+        top: -.65em;
+        right: -1.3em;
+        height: 2.6em;
+        overflow: hidden;
+        text-align: right;
+        text-shadow: none;
+        border-radius: 5px;
+    }
+
+    header ul.open {
+        height: auto;
+        background: black;
+    }
+
+    header .smallscreens {
+        display: block;
+    }
+
+    header li {
+        padding-bottom: .65em;
+    }
+
+    header li:first-child {
+        padding-top: .65em;
+        cursor: pointer;
+    }
+
+    header li:last-child {
+        padding-right: 1.3em;
     }
 }
 
@@ -344,7 +384,6 @@ address {
        knocked down to the next line by a pixel difference in rendering, just in case. */
     width: 377px;
     vertical-align: top;
-    margin-right: -.25em;
     line-height: 1.4em;
     color: black;
     border-spacing: 0;
@@ -407,6 +446,8 @@ address {
 }
 
 .fineprint {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
     margin-left: 25%;
     font-size: .8125em;
 }
@@ -447,11 +488,6 @@ address {
     #memberships table ~ table {
         width: 377px;
         margin-left: auto;
-    }
-
-    table + .fineprint {
-        margin-top: 1.5em;
-        margin-bottom: 1.5em;
     }
 
     .fineprint {
