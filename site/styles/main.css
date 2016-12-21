@@ -481,12 +481,12 @@ address {
         padding-left: 0;
     }
 
-    #memberships table tr th:last-child, #memberships table tr td:last-child {
-        width: 179px;
+    #memberships table th:last-child, #memberships table td:last-child, #memberships table:first-of-type th:last-child, #memberships table:first-of-type td:last-child {
+        width: 159px;
     }
 
-    #memberships table ~ table {
-        width: 377px;
+    #memberships table, #memberships table ~ table {
+        width: 357px;
         margin-left: auto;
     }
 
@@ -497,6 +497,10 @@ address {
 
 /* Just like the timing chip. Sort of. */
 @media (max-width: 555px) {
+    #memberships h3 {
+        padding-left: 40px;
+    }
+
     #memberships {
         padding: 0;
     }
@@ -507,6 +511,29 @@ address {
 
     .fineprint {
         margin-left: 1em;
+    }
+
+    #memberships table th:first-child, #memberships table:first-of-type th:first-child {
+        width: 128px;
+        padding-left: 0;
+    }
+
+    #memberships table th:first-child, #memberships table:first-of-type th:first-child {
+        line-height: 1.4em;
+        white-space: normal;
+    }
+
+    #memberships table th:last-child, #memberships table td:last-child, #memberships table:first-of-type th:last-child, #memberships table:first-of-type td:last-child {
+        width: 159px;
+    }
+
+    #memberships table td:last-child, #memberships table:first-of-type th:last-child, #memberships table:first-of-type td:last-child {
+        height: 3.3em;
+    }
+
+    #memberships table, #memberships table ~ table {
+        width: 287px;
+        margin-left: auto;
     }
 }
 
@@ -526,9 +553,9 @@ footer.business-info address {
     margin-left: 40px;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 700px) {
     footer.business-info > div {
-        width: 350px;
+        width: 377px;
     }
 
     footer.business-info address, footer.business-info dl {
@@ -537,13 +564,36 @@ footer.business-info address {
         margin-left: 40px;
     }
 
+    footer.business-info dl {
+        padding-right: 3.03571em;
+    }
+
     footer.business-info ul {
         display: flex;
         justify-content: space-between;
-        margin-left: 40px;
+        margin: 0 40px;
     }
 
     footer.business-info li {
         width: auto;
+    }
+}
+
+@media (max-width: 460px) {
+    section.business-info {
+        /* Turn the labels into bullets hanging off the left to prevent a horizontal scrollbar. */
+        margin-lef: 2.03571em;
+    }
+
+    footer.business-info > div {
+        width: 100%;
+    }
+
+    footer.business-info address, footer.business-info dl {
+        margin-left: 20px;
+    }
+
+    footer.business-info ul {
+        margin: 0 20px;
     }
 }
