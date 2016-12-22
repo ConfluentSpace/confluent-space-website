@@ -1,9 +1,16 @@
 document.addEventListener("DOMContentLoaded", function ()
 {
-    var menu = document.getElementById("menu");
+    var toggle = document.getElementById("menu-toggle"),
+            menu = document.getElementById("menu");
 
-    document.getElementById("menu-toggle").addEventListener("click", function ()
+    toggle.addEventListener("mousedown", function (event)
     {
+        event.preventDefault();
+    });
+
+    toggle.addEventListener("click", function (event)
+    {
+        event.preventDefault();
         menu.classList.toggle("open");
     });
 });
