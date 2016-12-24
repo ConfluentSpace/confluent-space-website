@@ -88,7 +88,7 @@ header, section, .callout > div, #memberships, footer div {
 
 header {
     color: #f99d33;
-    text-shadow: 0 0 2px #1e4897;
+    text-shadow: 0 0 2px black;
     text-transform: uppercase;
 }
 
