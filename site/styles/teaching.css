@@ -1,0 +1,26 @@
+/* See main.css for default definitions. */
+@media (min-width: 1025px) {
+    html {
+        background-image: url(../images/teaching-1680.gif);
+    }
+}
+
+@media (min-width: 1681px) {
+    html {
+        background-image: url(../images/teaching-1920.gif);
+    }
+}
+
+/*@media (min-width: 1921px) {
+    html {
+        background-image: url(../images/teaching.gif);
+    }
+}*/
+
+header h2 {
+    visibility: hidden;
+}
+
+section:last-of-type {
+    margin-bottom: 1.5em;
+}
