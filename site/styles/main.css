@@ -179,6 +179,7 @@ header h2 {
     header ul.open {
         height: auto;
         text-shadow: none;
+        color: white;
         background: black;
     }
 
@@ -202,6 +203,7 @@ header h2 {
 
     header li:last-child {
         padding-right: 1.3em;
+        padding-bottom: 1.2em;
     }
 }
 
