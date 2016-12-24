@@ -1,0 +1,22 @@
+/* See main.css for default definitions. */
+@media (min-width: 1025px) {
+    html {
+        background-image: url(../images/contribute-1680.gif);
+    }
+}
+
+@media (min-width: 1681px) {
+    html {
+        background-image: url(../images/contribute-1920.gif);
+    }
+}
+
+/*@media (min-width: 1921px) {
+    html {
+        background-image: url(../images/contribute.gif);
+    }
+}*/
+
+header h2 {
+    visibility: hidden;
+}

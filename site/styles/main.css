@@ -211,6 +211,10 @@ section {
     padding: 0 40px;
 }
 
+section + section {
+    margin-top: 1.5em;
+}
+
 section, section a {
     color: white;
 }
@@ -225,7 +229,7 @@ section ul {
     }
 }
 
-section:last-of-type ul:last-child {
+body > section:last-of-type ul:last-child {
     margin-bottom: 2.5em;
 }
 
@@ -405,7 +409,7 @@ address {
     color: inherit;
 }
 
-.callout section > a {
+.callout section > a, .page {
     align-self: center;
     padding: .3em 1em;
     font-size: 1.25em;
@@ -413,6 +417,20 @@ address {
     color: #f99d33;
     background: #1e4897;
     border-radius: 5px;
+}
+
+.page {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: .5em;
+    color: #1e4897;
+    background: #f99d33;
+}
+
+body > section:last-of-type .page:last-child {
+    margin-bottom: 2em;
 }
 
 #memberships {
