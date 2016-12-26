@@ -17,6 +17,7 @@ section aside {
 section aside img {
     display: block;
     max-width: 100%;
+    margin-top: .25em;
 }
 
 @media (max-width: 799px) {
