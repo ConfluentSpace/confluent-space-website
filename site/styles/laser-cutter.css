@@ -1,0 +1,61 @@
+body > p, body > nav, body > nav a {
+    color: white;
+}
+
+table {
+    border-spacing: 0;
+}
+
+table td, table th {
+    height: 2.8em;
+    padding: .25em .5em;
+    line-height: 1.4em;
+}
+
+table tr:nth-child(odd) td {
+    background: rgba(255, 255, 255, .2);
+}
+
+table td:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+table td:last-child {
+    border-radius: 0 5px 5px 0;
+}
+
+#specifications table td:nth-child(2) {
+    white-space: nowrap;
+}
+
+#materials {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#materials > h4 + p {
+    margin-top: 0;
+}
+
+#materials h5 {
+    margin-top: 0;
+    font-size: 1em;
+}
+
+#materials div {
+    box-sizing: border-box;
+    width: 50%;
+}
+
+#materials div {
+    padding-right: 1em;
+}
+
+#materials div + div {
+    padding-left: 1em;
+    padding-right: 0;
+}
+
+#supplies {
+    margin-bottom: 2em;
+}
