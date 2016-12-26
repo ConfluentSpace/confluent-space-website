@@ -517,17 +517,20 @@ body > section:last-of-type .page:last-child {
 }
 
 .fineprint {
+    margin-left: 25%;
+}
+
+.fineprint, .footnote {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
-    margin-left: 25%;
     font-size: .8125em;
 }
 
-.fineprint + .fineprint {
+.fineprint + .fineprint, .footenote + .footnote {
     margin-top: -1em;
 }
 
-.fineprint:last-child {
+.fineprint:last-child, .footenote:last-child {
     margin-bottom: 0;
 }
 

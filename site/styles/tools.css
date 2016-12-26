@@ -1,0 +1,59 @@
+section:last-of-type {
+    margin-bottom: 2.5em;
+}
+
+section:after {
+    content: "";
+    display: block;
+    clear: right;   
+}
+
+section aside {
+    float: right;
+    max-width: 45%;
+    margin-left: 1.25em;
+}
+
+section aside img {
+    display: block;
+    max-width: 100%;
+}
+
+@media (max-width: 799px) {
+    section {
+        display: flex;
+        flex-direction: column;    
+    }
+
+    section h3 {
+        order: -2;
+    }
+
+    section aside {
+        float: none;
+        order: -1;
+        max-width: none;
+        margin-top: 1em;
+        margin-left: 0;
+    }
+}
+
+.footnote:last-child {
+    margin-bottom: .5em;
+}
+
+.fixme {
+    position: relative;
+}
+
+.fixme:before {
+    content: "SAMPLE IMAGE";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-22.5deg);
+    font-size: 2em;
+    white-space: nowrap;
+    color: #d74f4f;
+    text-shadow: 0 0 3px black;
+}
