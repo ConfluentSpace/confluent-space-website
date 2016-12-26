@@ -240,6 +240,14 @@ h3 {
     font-size: 1.5em;
 }
 
+strong {
+    color: #f99d33;
+}
+
+.callout strong {
+    color: #1e4897;
+}
+
 blockquote {
     margin: 1.5em 0 .5em;
     padding: .25em 0 .25em 1.25em;
@@ -303,7 +311,7 @@ address {
     font-style: normal;
 }
 
-.business-info a {
+.business-info strong, .business-info a {
     color: white;
     text-decoration: none;
 }
