@@ -1,9 +1,9 @@
-1. fix viewport for <= 1024 or whatever my phone default is
-2. Resize the header image to various widths to accommodate various browser viewports
-3. fix the cost table at smaller sizes (needs to be reworked possibly)
-4. Hamburger menu when too small
-   4.1 Add a menu item that is hidden until the viewport is small enough that triggers it
-   4.2 Overlay screen(?)
+x. fix viewport for <= 1024 or whatever my phone default is
+x. Resize the header image to various widths to accommodate various browser viewports
+x. fix the cost table at smaller sizes (needs to be reworked possibly)
+x. Hamburger menu when too small
+   x.1 Add a menu item that is hidden until the viewport is small enough that triggers it
+   /.2 Overlay screen(?)
 
 Confluent site:
 x footer doesn't stick to bottom on phone (do full height site)
@@ -13,3 +13,12 @@ x Change asterisk definition to "Non-consecutive; you get a punch card"
 x Add meta tag for site description
 x Add meta viewport tag
 
+x Make "" on about.html smart quotes
+- Get new images for electronics lab, shop, and backyard
+- Change out header for tools page to use the shop slice from the old page
+  - Go find the original photo so it can be appropriately recropped
+- Check tools meta image (open graph, etc.) and update/add if needed
+- Get new image for laser cutter info page header
+- Update laser cutter meta image to match header
+- Get new image for 3D printer page header
+- Update 3D printer meta image to match header

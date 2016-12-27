@@ -75,7 +75,11 @@ body {
     margin: 0;
 }
 
-header, section, .callout > div, #memberships, footer div {
+.smallscreens {
+    display: none;
+}
+
+header, section, .callout > div, .callout > section, #memberships, footer div {
     box-sizing: border-box;
     width: 100%;
     max-width: 1024px;
@@ -84,7 +88,7 @@ header, section, .callout > div, #memberships, footer div {
 
 header {
     color: #f99d33;
-    text-shadow: 0 0 2px #1e4897;
+    text-shadow: 0 0 2px black;
     text-transform: uppercase;
 }
 
@@ -113,8 +117,6 @@ header ul {
 }
 
 header li {
-    display: flex;
-    align-items: flex-end;
     padding: 0 1.3em;
 }
 
@@ -129,10 +131,6 @@ header a, header .fa {
     line-height: 1em;
     text-decoration: none;
     color: inherit;
-}
-
-header .touchable {
-    display: none;
 }
 
 header h2 {
@@ -161,9 +159,78 @@ header h2 {
     }
 }
 
+@media (max-width: 970px) {
+    header nav {
+        position: relative;
+        overflow: visible;
+    }
+
+    header ul {
+        flex-direction: column;
+        justify-content: flex-start;
+        position: absolute;
+        top: -.65em;
+        right: -1.3em;
+        height: 2.6em;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+
+    header ul.open {
+        height: auto;
+        text-shadow: none;
+        color: white;
+        background: black;
+    }
+
+    header .smallscreens {
+        display: block;
+    }
+
+    header li {
+        padding-bottom: .65em;
+    }
+
+    header li.subpage {
+        padding-left: 1.95em;
+    }
+
+    header li:first-child {
+        padding-top: .65em;
+        text-align: right;
+        cursor: pointer;
+    }
+
+    header li:last-child {
+        padding-right: 1.3em;
+        padding-bottom: 1.2em;
+    }
+}
+
 section {
     padding: 0 40px;
+}
+
+section + section {
+    margin-top: 1.5em;
+}
+
+section, section a {
     color: white;
+}
+
+section ul {
+    padding-left: 20px;
+}
+
+@media (max-width: 739px) {
+    section li {
+        margin-bottom: .5em;
+    }
+}
+
+body > section:last-of-type ul:last-child {
+    margin-bottom: 2.5em;
 }
 
 h3 {
@@ -171,6 +238,29 @@ h3 {
     margin-bottom: .83em;
     font-family: 'Permanent Marker';
     font-size: 1.5em;
+}
+
+strong {
+    color: #f99d33;
+}
+
+.callout strong {
+    color: #1e4897;
+}
+
+blockquote {
+    margin: 1.5em 0 .5em;
+    padding: .25em 0 .25em 1.25em;
+    font-style: italic;
+    border-left: 5px solid #f99d33;
+}
+
+blockquote p:first-child {
+    margin-top: 0;
+}
+
+blockquote p:last-child {
+    margin-bottom: 0;
 }
 
 .business-info {
@@ -182,19 +272,19 @@ h3 {
 }
 
 @media (max-width: 1679px) {
-    .business-info h3 {
+    body > section:first-of-type h3 {
         margin-top: .5em;
     }
 }
 
 @media (max-width: 1100px) {
-    .business-info h3 {
+    body > section:first-of-type h3 {
         margin-top: 1em;
     }
 }
 
 @media (max-width: 800px) {
-    .business-info h3 {
+    body > section:first-of-type h3 {
         margin-top: 1.5em;
     }
 }
@@ -221,7 +311,7 @@ address {
     font-style: normal;
 }
 
-.business-info a {
+.business-info strong, .business-info a {
     color: white;
     text-decoration: none;
 }
@@ -279,18 +369,24 @@ address {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.callout > div, .callout > section {
     margin: 0 auto;
     padding: 2em 40px;
 }
 
+.callout > section, .callout div section {
+    color: black;
+}
+
 /* I didn't intend to use flexbox so much, honest. It just sort of happened that way. */
-.callout section {
+.callout div section {
     display: flex;
     flex-direction: column;
     width: 30%;
     margin: 0;
     padding: 0;
-    color: black;
 }
 
 @media (max-width: 799px) {
@@ -298,12 +394,12 @@ address {
         flex-direction: column;
     }
 
-    .callout section {
+    .callout div section {
         width: 100%;
         margin-top: 2em;
     }
 
-    .callout section:first-child {
+    .callout div section:first-child {
         margin-top: 0;
     }
 }
@@ -312,13 +408,17 @@ address {
     margin: 0;
 }
 
-.callout section p {
+.callout div section p {
     flex-grow: 1;
     margin-bottom: 1.5em;
 }
 
 .callout a {
-    margin: 0 auto;
+    color: inherit;
+}
+
+.callout section > a, .page {
+    align-self: center;
     padding: .3em 1em;
     font-size: 1.25em;
     text-decoration: none;
@@ -327,8 +427,27 @@ address {
     border-radius: 5px;
 }
 
+.page {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: .5em;
+    text-align: center;
+    color: #1e4897;
+    background: #f99d33;
+}
+
+.page:last-child {
+    margin-bottom: .4em;
+}
+
+body > section:last-of-type .page:last-child {
+    margin-bottom: 2em;
+}
+
 #memberships {
-    margin-bottom: 3em;
+    margin-bottom: 2.5em;
     padding: 0 40px;
     color: white;
 }
@@ -338,13 +457,32 @@ address {
 }
 
 #memberships table {
-    width: 100%;
+    display: inline-table;
     table-layout: fixed;
+    /* Should be 378px and the next width 199px but this ensures the last box isn't
+       knocked down to the next line by a pixel difference in rendering, just in case. */
+    width: 377px;
+    vertical-align: top;
+    line-height: 1.4em;
     color: black;
-    border-spacing: .5em 0;
+    border-spacing: 0;
+}
+
+#memberships table:first-of-type th:first-child {
+    width: 198px;
+    padding-left: 0;
+}
+
+#memberships table:first-of-type th:last-child, #memberships table:first-of-type td:last-child, #memberships table ~ table {
+    width: 179px;
+}
+
+#memberships table ~ table {
+    margin-left: 8px;
 }
 
 #memberships thead th {
+    height: 3.3em;
     background: white;
 }
 
@@ -353,9 +491,13 @@ address {
 }
 
 #memberships td, #memberships th {
-    width: 20%;
+    box-sizing: border-box;
     padding: .25em .5em;
     text-align: center;
+}
+
+#memberships table ~ table thead th:first-child, #memberships table ~ table tbody th {
+    display: none;
 }
 
 #memberships tbody th {
@@ -384,11 +526,97 @@ address {
 
 .fineprint {
     margin-left: 25%;
+}
+
+.fineprint, .footnote {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
     font-size: .8125em;
 }
 
-.fineprint + .fineprint {
+.fineprint + .fineprint, .footenote + .footnote {
     margin-top: -1em;
+}
+
+.fineprint:last-child, .footenote:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 1023px) {
+    #memberships table {
+        display: table;
+        transform: translateX(-99px);
+        margin: 0 auto;
+        margin-bottom: 1em;
+    }
+
+    #memberships table:last-of-type {
+        margin-bottom: 0;
+    }
+
+    #memberships table ~ table thead tr th:first-child, #memberships table ~ table tbody tr th {
+        display: table-cell;
+    }
+
+    #memberships table th:first-child {
+        width: 198px;
+        padding-left: 0;
+    }
+
+    #memberships table th:last-child, #memberships table td:last-child, #memberships table:first-of-type th:last-child, #memberships table:first-of-type td:last-child {
+        width: 159px;
+    }
+
+    #memberships table, #memberships table ~ table {
+        width: 357px;
+        margin-left: auto;
+    }
+
+    .fineprint {
+        margin-left: 0;
+    }
+}
+
+/* Just like the timing chip. Sort of. */
+@media (max-width: 555px) {
+    #memberships h3 {
+        padding-left: 40px;
+    }
+
+    #memberships {
+        padding: 0;
+    }
+
+    #memberships table {
+        transform: none;
+    }
+
+    .fineprint {
+        margin-left: 1em;
+    }
+
+    #memberships table th:first-child, #memberships table:first-of-type th:first-child {
+        width: 128px;
+        padding-left: 0;
+    }
+
+    #memberships table th:first-child, #memberships table:first-of-type th:first-child {
+        line-height: 1.4em;
+        white-space: normal;
+    }
+
+    #memberships table th:last-child, #memberships table td:last-child, #memberships table:first-of-type th:last-child, #memberships table:first-of-type td:last-child {
+        width: 159px;
+    }
+
+    #memberships table td:last-child, #memberships table:first-of-type th:last-child, #memberships table:first-of-type td:last-child {
+        height: 3.3em;
+    }
+
+    #memberships table, #memberships table ~ table {
+        width: 287px;
+        margin-left: auto;
+    }
 }
 
 body:after {
@@ -399,7 +627,7 @@ body:after {
 
 footer {
     order: 1;
-    padding: 40px 0;
+    padding: 2.5em 0;
     background: black;
 }
 
@@ -407,9 +635,9 @@ footer.business-info address {
     margin-left: 40px;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 700px) {
     footer.business-info > div {
-        width: 350px;
+        width: 377px;
     }
 
     footer.business-info address, footer.business-info dl {
@@ -418,13 +646,36 @@ footer.business-info address {
         margin-left: 40px;
     }
 
+    footer.business-info dl {
+        padding-right: 3.03571em;
+    }
+
     footer.business-info ul {
         display: flex;
         justify-content: space-between;
-        margin-left: 40px;
+        margin: 0 40px;
     }
 
     footer.business-info li {
         width: auto;
+    }
+}
+
+@media (max-width: 460px) {
+    section.business-info dl {
+        /* Turn the labels into bullets hanging off the left to prevent a horizontal scrollbar. */
+        margin-left: -2.03571em;
+    }
+
+    footer.business-info > div {
+        width: 100%;
+    }
+
+    footer.business-info address, footer.business-info dl {
+        margin-left: 20px;
+    }
+
+    footer.business-info ul {
+        margin: 0 20px;
     }
 }
