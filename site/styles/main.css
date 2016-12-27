@@ -46,25 +46,25 @@
 html {
     height: 100%;
     font-family: 'Open Sans', sans-serif;
-    background: url(../images/banner-1024.png) no-repeat 0 0 / 100% auto #1e4897;
+    background: url(../images/pages/summary/banner-1024.png) no-repeat 0 0 / 100% auto #1e4897;
 }
 
 /* Not aiming to capture all resolutions. Just trying to keep the file size down of a large image. */
 @media (min-width: 1025px) {
     html {
-        background-image: url(../images/banner-1680.gif);
+        background-image: url(../images/pages/summary/banner-1680.gif);
     }
 }
 
 @media (min-width: 1681px) {
     html {
-        background-image: url(../images/banner-1920.gif);
+        background-image: url(../images/pages/summary/banner-1920.gif);
     }
 }
 
 /*@media (min-width: 1921px) {
     html {
-        background-image: url(../images/banner.gif);
+        background-image: url(../images/pages/summary/banner.gif);
     }
 }*/
 
