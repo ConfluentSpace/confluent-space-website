@@ -79,7 +79,7 @@ body {
     display: none;
 }
 
-header, section, .callout > div, .callout > section, #memberships, footer div {
+header, body > nav, section, .callout > div, .callout > section, #memberships, footer div {
     box-sizing: border-box;
     width: 100%;
     max-width: 1024px;
@@ -207,7 +207,7 @@ header h2 {
     }
 }
 
-section {
+body > nav, section {
     padding: 0 40px;
 }
 
@@ -219,12 +219,12 @@ section, section a {
     color: white;
 }
 
-section ul {
+body > nav ul, section ul {
     padding-left: 20px;
 }
 
 @media (max-width: 739px) {
-    section li {
+    body > nav li, section li {
         margin-bottom: .5em;
     }
 }
