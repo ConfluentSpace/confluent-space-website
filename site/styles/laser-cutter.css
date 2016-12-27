@@ -56,6 +56,6 @@ table td:last-child {
     padding-right: 0;
 }
 
-#supplies {
+body > section:last-of-type {
     margin-bottom: 2em;
 }
