@@ -21,10 +21,6 @@ html {
     }
 }*/
 
-header h2 {
-    visibility: hidden;
-}
-
 section:last-of-type {
     margin-bottom: 1.5em;
 }
