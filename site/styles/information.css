@@ -24,10 +24,6 @@ table td:last-child {
     border-radius: 0 5px 5px 0;
 }
 
-#specifications table td:nth-child(2) {
-    white-space: nowrap;
-}
-
 #materials {
     display: flex;
     flex-wrap: wrap;
@@ -54,6 +50,14 @@ table td:last-child {
 #materials div + div {
     padding-left: 1em;
     padding-right: 0;
+}
+
+@media (max-width: 479px) {
+    #materials div:first-child, #materials div:nth-child(2) {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 body > section:last-of-type {
