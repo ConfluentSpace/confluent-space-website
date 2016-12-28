@@ -47,7 +47,7 @@ section aside img {
 @media (max-width: 799px) {
     section {
         display: flex;
-        flex-direction: column;    
+        flex-direction: column;
     }
 
     section h3 {
@@ -60,6 +60,11 @@ section aside img {
         max-width: none;
         margin-top: 1em;
         margin-left: 0;
+    }
+
+    .page {
+        left: auto;
+        transform: none;
     }
 }
 
