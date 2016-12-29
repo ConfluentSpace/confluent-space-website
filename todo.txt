@@ -18,7 +18,8 @@ x Make "" on about.html smart quotes
 x Change out header for tools page to use the shop slice from the old page
   x Go find the original photo so it can be appropriately recropped
 x Check tools meta image (open graph, etc.) and update/add if needed
-- Get new image for laser cutter info page header
-- Update laser cutter meta image to match header
-- Get new image for 3D printer page header
-- Update 3D printer meta image to match header
+x Get new image for laser cutter info page header
+x Update laser cutter meta image to match header
+x Get new image for 3D printer page header
+x Update 3D printer meta image to match header
+- Port tips and tricks page, but with added images
