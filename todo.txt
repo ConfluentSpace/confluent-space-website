@@ -22,4 +22,4 @@ x Get new image for laser cutter info page header
 x Update laser cutter meta image to match header
 x Get new image for 3D printer page header
 x Update 3D printer meta image to match header
-- Port tips and tricks page, but with added images
+x Port tips and tricks page, but with added images
