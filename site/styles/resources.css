@@ -32,18 +32,6 @@ section:after {
     clear: right;   
 }
 
-section aside {
-    float: right;
-    max-width: 45%;
-    margin-left: 1.25em;
-}
-
-section aside img {
-    display: block;
-    max-width: 100%;
-    margin-top: .25em;
-}
-
 @media (max-width: 799px) {
     section {
         display: flex;
@@ -52,14 +40,6 @@ section aside img {
 
     section h3 {
         order: -2;
-    }
-
-    section aside {
-        float: none;
-        order: -1;
-        max-width: none;
-        margin-top: 1em;
-        margin-left: 0;
     }
 
     .page {
