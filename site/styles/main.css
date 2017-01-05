@@ -578,7 +578,67 @@ body > section:last-of-type .page:last-child {
     margin-bottom: 0;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1034px) and (min-width: 592px) {
+    #memberships table {
+        margin-bottom: 1em;
+    }
+
+    #memberships table:last-of-type {
+        margin-bottom: 0;
+    }
+
+    #memberships table ~ table thead tr th:first-child, #memberships table ~ table tbody tr th {
+        display: table-cell;
+    }
+
+    #memberships table th:first-child {
+        width: 198px;
+        padding-left: 0;
+    }
+
+    #memberships table:nth-of-type(odd) {
+        margin-left: calc(50% - 361px);
+    }
+
+    #memberships table:nth-of-type(even) {
+        width: 159px;
+        margin-left: 8px;
+    }
+
+    #memberships table:nth-of-type(even) th:first-child {
+        display: none;
+    }
+
+    #memberships table th:last-child, #memberships table td:last-child, #memberships table:first-of-type th:last-child, #memberships table:first-of-type td:last-child {
+        width: 159px;
+    }
+
+    #memberships table, #memberships table ~ table {
+        width: 357px;
+    }
+
+    .fineprint {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 725px) and (min-width: 592px) {
+    #memberships table:nth-of-type(odd) {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 605px) and (min-width: 592px) {
+    #memberships {
+        padding: 0 25px;
+    }
+
+    #memberships h3 {
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 591px) {
     #memberships table {
         display: table;
         transform: translateX(-99px);
