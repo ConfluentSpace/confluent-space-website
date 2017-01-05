@@ -23,3 +23,6 @@ x Update laser cutter meta image to match header
 x Get new image for 3D printer page header
 x Update 3D printer meta image to match header
 x Port tips and tricks page, but with added images
+x Have fallback for lack of FontAwesome
+x Update header for laser tips page to inside of game box
+x Hide photo log URL
