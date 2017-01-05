@@ -14,3 +14,16 @@ document.addEventListener("DOMContentLoaded", function ()
         menu.classList.toggle("open");
     });
 });
+
+document.onreaadddystatechange = function ()
+{
+    var toggle = document.getElementById("menu-toggle").firstElementChild;
+
+    if (document.readyState === "complete")
+    {
+        if (window.getComputedStyle(toggle).fontFamily !== "FontAwesome")
+        {
+            document.body.classList.add("font-awesome-fallback");
+        }
+    }
+};
