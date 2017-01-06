@@ -12,6 +12,15 @@ document.addEventListener("DOMContentLoaded", function ()
     {
         event.preventDefault();
         menu.classList.toggle("open");
+
+        if (window.getSelection)
+        {
+            window.getSelection().removeAllRanges();
+        }
+        else if (document.selection)
+        {
+            document.selection.empty();
+        }
     });
 });
 
