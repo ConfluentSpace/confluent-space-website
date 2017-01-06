@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function ()
     });
 });
 
-document.onreaadddystatechange = function ()
+document.onreadystatechange = function ()
 {
     var toggle = document.getElementById("menu-toggle").firstElementChild;
 
