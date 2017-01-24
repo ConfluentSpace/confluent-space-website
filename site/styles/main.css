@@ -715,6 +715,11 @@ body > section:last-of-type .page:last-child {
     }
 }
 
+#memberships p:last-child {
+    margin: 1em 1em 0;
+    text-align: center;
+}
+
 body:after {
     content: "";
     flex-grow: 1;
