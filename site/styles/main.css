@@ -560,6 +560,10 @@ body > section:last-of-type .page:last-child {
     border-radius: 0 0 5px 5px;
 }
 
+#memberships td a {
+    color: inherit;
+}
+
 .fineprint {
     margin-left: 25%;
 }
