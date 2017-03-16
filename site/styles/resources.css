@@ -77,3 +77,24 @@ section:after {
     color: #d74f4f;
     text-shadow: 0 0 3px black;
 }
+
+.extra-pages {
+    text-align: center;
+}
+
+.extra-pages > section {
+    margin-bottom: 0;
+}
+
+.extra-pages > section > * {
+    text-align: left;
+}
+
+.extra-pages .page {
+    left: auto;
+    transform: none;
+}
+
+.extra-pages .page + .page {
+    margin-left: .75em;
+}
