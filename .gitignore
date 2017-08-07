@@ -2,3 +2,4 @@ node_modules
 wp*.png
 *.exe
 .DS_Store
+env
