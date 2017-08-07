@@ -1,0 +1,78 @@
+%YAML 1.2
+---
+header:
+    title: 3D Printer Information
+    description: The information and policy page regarding the 3D printers available at Confluent.
+    path: resources/3d-printers
+    page: 3d-printers
+content: |
+        <nav>
+            <ul>
+                <li><a href="#specifications">Specifications</a></li>
+                <li><a href="#training">Training</a></li>
+                <li><a href="#filament">Filament</a></li>
+            </ul>
+        </nav>
+        <div class="callout">
+            <section id="specifications">
+                <h3>Specifications</h3>
+                <p>We have three 3D printers: one OpenBeam Kossel Pro and two Monoprice Select printers. The following specs were borrowed from <a href="https://www.matterhackers.com/store/printer-kits/openbeam-kossel-pro">MatterHackers</a> and <a href="http://www.monoprice.com/product?p_id=13860">Monoprice</a>.</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Open<wbr>Beam Kossel Pro</th>
+                            <th>Mono<wbr>price Select</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Build Area</td>
+                            <td>250mm (~9.8″) diameter</td>
+                            <td>200mm x 200mm (~7.8″ x ~7.8″)</td>
+                        </tr>
+                        <tr>
+                            <td>Build Height</td>
+                            <td>250mm (~9.8″)</td>
+                            <td>180mm (~7″)</td>
+                        </tr>
+                        <tr>
+                            <td>Filament Diameter</td>
+                            <td>1.75mm</td>
+                            <td>1.75mm</td>
+                        </tr>
+                        <tr>
+                            <td>Resolution</td>
+                            <td>.2mm</td>
+                            <td>.1mm</td>
+                        </tr>
+                        <tr>
+                            <td>Max Extruder Temp</td>
+                            <td>300°C / 572°F*</td>
+                            <td>260°C / 500°F</td>
+                        </tr>
+                        <tr>
+                            <td>Heated Bed</td>
+                            <td><i class="fa fa-check"><span>yes</span></i></td>
+                            <td><i class="fa fa-check"><span>yes</span></i> </td>
+                        </tr>
+                        <tr>
+                            <td>Software</td>
+                            <td>Cura + Octoprint</td>
+                            <td>Cura + Octoprint</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="footnote">* The printer has issues reading the correct temperature so it may not currently be able to achieve the listed maximum.</p>
+            </section>
+        </div>
+        <section>
+            <h3 id="training">Training</h3>
+            <p>Anyone who wants to use any of the our 3D printers must be trained. Training will be held regularly and you can find the next training on our <a href="https://confluent.space/calendar/">calendar</a>. If for some reason there isn’t one scheduled and you’d like to be trained, drop us a line <a href="mailto:make@confluent.space">by email</a> or <a href="https://www.facebook.com/ConfluentSpace/">through Facebook</a>. Training covers safety, how to use the 3D printer software, and procedures when using the 3D printers. It does not cover how to create files suitable for use with the 3D printer. Look for other classes on our calendar to cover that.</p>
+            <p>Additionally, you may not start any prints that are estimated to finish after the end of business hours for the day.</p>
+        </section>
+        <section>
+            <h3 id="filament">Filament</h3>
+            <p>The space has some filament on hand in assorted colors which is included in the cost of a day passes and business hours memberships. We cannot guarantee any particular color for your prints. We will charge you if you intentionally use a lot of our filament. You are however welcome to bring your own filament to use instead. We currently recommend using HATCHBOX filament with our printers. You can find it on <a href="https://smile.amazon.com/s/ref=lp_14181177011_nr_scat_6066128011_ln?srs=14181177011&rh=n%3A6066128011&ie=UTF8&qid=1482826704&scn=6066128011&h=59aa7c649efa05f6846589530aaf98b4ce697f74">Amazon</a> for about $20 to $35 a kilogram.</p>
+            <p>Due to a lack of ventilation in the electronics lab printing is currently limited to PLA or low off-gassing filaments. Until this is resolved we do not allow printing of ABS or other similar filaments.</p>
+        </section>

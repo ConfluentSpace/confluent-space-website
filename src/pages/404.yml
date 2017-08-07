@@ -1,0 +1,11 @@
+%YAML 1.2
+---
+header:
+    title: Not Found
+content: |
+        <section>
+            <h3>Houston, we have a problem</h3>
+            <p>We couldn’t find the page you were looking for.</p>
+            <p>If a link on our site or one of our social media posts landed you here, please hit the back button then <a href="mailto:confluent.space@gmail.com">send us an email</a> or <a href="https://www.facebook.com/ConfluentSpace/">message us on Facebook</a> to let us know about it. Otherwise, please check the URL you entered for typos and try again.</p>
+            <p>If it was a link to our store, <a href="https://store.confluent.space/shop">it moved</a> and we apologize for the inconvenience. Please let us know so we can update our links.</p>
+        </section>

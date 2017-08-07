@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>${title} | ${subtitle}</title>
+        <link rel="icon" href="/images/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" href="/images/favicon-192x192.png" sizes="192x192">
+        <link rel="apple-touch-icon-precomposed" href="/images/favicon-180x180.png">
+        <meta name="msapplication-TileImage" content="/images/favicon-270x270.png">
+        <meta name="msapplication-TileColor" content="#f99d33">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="${description}">
+        <meta property="og:site_name" content="Confluent">
+        <meta property="og:title" content="${title} | Confluent">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://confluent.space/${path}">
+        <meta property="og:image" content="https://confluent.space/images/pages/${page}/links.jpg">
+        <meta property="og:description" content="${description}">
+        <meta name="twitter:title" content="${title} | Confluent">
+        <meta name="twitter:site" content="@confluent_space">
+        <meta name="twitter:description" content="${description}">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://confluent.space/images/pages/${page}/links.jpg">
+        <script src="/scripts/menu.js"></script>
+        <link rel="stylesheet" href="/styles/font-awesome.min.css">
+        <link rel="stylesheet" href="/styles/main.css">#{if path and path.find('resources/') != -1}
+        <link rel="stylesheet" href="/styles/information.css">#{/if}#{if page != 'about' and page != 'summary'}
+        <link rel="stylesheet" href="/styles/${page}.css">#{/if}
+    </head>
+    <body>

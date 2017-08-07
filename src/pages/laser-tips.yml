@@ -1,0 +1,70 @@
+%YAML 1.2
+---
+header:
+    title: Laser Cutter Tips & Tricks
+    description: This page covers some tips and tricks relating to laser cutting things.
+    path: resources/laser-cutter/tips
+    page: laser-tips
+content: |
+        <nav>
+            <ul>
+                <li><a href="#friction">Friction-Fit Joints (for Plywood)</a></li>
+                <li><a href="#overburn">Overburn (Stray Marks Outside of Cuts and Engraved Areas)</a></li>
+                <li><a href="#acrylic">Slotting into Acrylic (Joints)</a></li>
+                <li><a href="#painting">Painting Acrylic</a></li>
+                <li><a href="#sprues">Sprues</a></li>
+            </ul>
+        </nav>
+        <div class="callout">
+            <section id="friction">
+                <h3>Friction-Fit Joints (for Plywood)</h3>
+                <aside>
+                    <img src="/images/pages/laser-tips/friction-fit.png" alt="Example of a plywood creation using friction-fit joints">
+                </aside>
+                <p>Creating a box? Visit the online box generator <a href="http://www.festi.info/boxes.py/index.html">boxes.py</a> first. It offers a wide range of options and lets you control the fit. When doesn't suit your needs, come back and finish reading this section.</p>
+                <p>If you intend to use a tooth pattern (see right) to join to pieces, giving the teeth and valleys the same size will result in a very loose fit. This is due to kerf. To fix this, pick a side to adjust. On that side make each tooth a bit wider and shorten the valleys accordingly. This doesn’t need to be much, as even .58mm added to each tooth can be plenty.</p>
+                <p>Be aware with super tight fits plywood play split when you assemble your pieces. To avoid, you may wish to use a fit that works most of the time but sometimes requires a spot of glue.</p>
+                <p>Kerf also affects holes used for slotted parts. There you need only adjust one dimension of the hole to achieve a good fit. Plywood from Windsor in Kennewick is nominally 3.5mm, so a hole around 3.2mm tall is a good starting point.</p>
+            </section>
+        </div>
+        <section>
+            <h3 id="overburn">Overburn (Stray Marks Outside of Cuts and Engraved Areas)</h3>
+            <aside>
+                <img src="/images/pages/laser-tips/overburn.png" alt="Example of a plywood creation with overburn">
+            </aside>
+            <p>Overburn generally occurs around the edges of a cut or engraved area. Sometimes people prefer this as it gives a “laser cut” character. However other times this effect can be considered undesirable, especially if it is amplified by the material. This can be partly resolved by lowering the frequency used for a cut, but this only works to a point: a too low frequency might not cut well enough or will produce other undesirable effects.</p>
+            <p>Another approach is to use painter’s tape. A bunch of strips that touch but don’t overlap that cover the area being cut or engraved can prevent some overburn. If the engraving is deep, more layers are needed. Since gaps in the tape will look odd when removed later, it is preferable to offset extra layers to overlap and cover edges from the previous layer. Engraving settings may need to be changed to account for the tape to achieve the same look they had without the tape. Any settings which are too weak will result in partially removed tape and a residue.</p>
+            <p><strong>Painter’s tape is not suitable for engraving pictures using the automatic Epilog method</strong> as it engraves them using a lot of little points spaced close together or far apart at varying settings. This will make it hard to remove any remaining tape, potentially leave residues, and be likely to prevent the picture from coming out clearly in lighter areas.</p>
+        </section>
+        <div class="callout">
+            <section>
+                <h3 id="acrylic">Slotting into Acrylic (Joints)</h3>
+                <p><strong>Acrylic cement can join acrylic if used effectively but it is a real pain to deal with, requires a well ventilated area, and is easy to get everywhere.</strong> If you must use it, you will want to have some mineral spirits on hand, or a similar product, to remove cement fingerprints and other imperfections. You should definitely build a jig to hold and your parts together while the cement works its magic. You don’t want to have to sit and wait while holding them together.</p>
+                <p>Rather than using cement, you might find it useful to do like at the right and put in a slot instead. This can be used for awards and notch joints. <strong>Unfortunately by default a straight rectangular hole the right size for holding the other part effectively will cause the acrylic to crack from the stress.</strong> However if you put a partial circle at each corner instead of a 90° angle, the acrylic will not crack. <a href="http://www.ponoko.com/blog/2010/06/17/how-to-make-snug-joints-in-acrylic/">Ponoko</a> has a great article on how to do this.</p>
+            </section>
+        </div>
+        <section id="painting">
+            <h3>Painting Acrylic</h3>
+            <aside>
+                <img src="/images/pages/laser-tips/paint.png" alt="Examples of some painted acrylic pieces">
+            </aside>
+            <p>Painting laser cut acrylic items can be a great way to make them stand out. However there are a few things that can make it easier. Cast acrylic that comes with a paper backing on both sides unlike extruded acrylic, which comes with a film on both sides. It is perfectly OK to laser acrylic with this backing paper still on it. It may also give better results. <strong>Be sure not to have any loose or curled backing paper.</strong> The laser can briefly cause it to catch fire and smolder. If you need to, tape it down or cut it off as acrylic will engrave just fine without the backing paper.</p>
+            <p>When you’re finished lasering, the paper makes a perfect mask for itself. A paint brush can be used to remove all the remaining acrylic dust from the engraved areas that would interfere with painting. Painter’s tape can then be used to mask off any holes or edges of the piece you don’t want to accidentally paint.</p>
+            <p>Acrylic paint will work well here, but it is incredibly easy to get a nice even coat using spray paint. The downside is that spray paint needs a reasonably warm ambient temperature to cure properly. Finally, make sure your piece has completely dried before you remove the paper and any masking to avoid smudging or adding paint fingerprints to your piece.</p>
+        </section>
+        <div class="callout">
+            <section>
+                <h3 id="sprues">Sprues (Part or Kit Boards)</h3>
+                <aside>
+                    <img src="/images/pages/laser-tips/sprues.png" alt="Example of a plywood sheet with sprues">
+                </aside>
+                <p><strong>sprue n.</strong> A channel through which metal or plastic is poured into a mold, joining a number of small molded items.</p>
+                <p>Traditionally this term has applied to things like plastics but there’s no reason it can’t be applied to any similar concept. They’re typically seen in plastic model kits where all the parts are attached to each other in a larger sheet. It’s not always space efficient but it ensures every kit has all the parts it needs and makes it easy for the factory to assemble boxes.</p>
+                <p>For custom things and one-offs in the world of laser cutting this isn’t how most designs operate as they cut out all parts in their entirety. However the concept can be useful to create small kits that can easily be mailed or stacked and handed out at an event without losing any of the parts and keeping everything together until assembly. Any space left in the outer material the parts are attached to can even be engraved with markings to help aid assembly or for promotional purposes.</p>
+                <p>It would seem that <strong>1mm</strong> is an OK size gap to leave in a line for a sprue. Kerf will make that gap a little smaller in practice and a great size. A little smaller might make it easier to twist out parts, but too small and they’ll fall out after cutting finishes.</p>
+            </section>
+        </div>
+        <section>
+            <h3>More</h3>
+            <p>This is not the end, my friend. More tips or even just links to other websites will come as they are found or thought up. If you would like some help designing for the laser cutter, drop us a line and we can help you get in touch with someone.</p>
+        </section>

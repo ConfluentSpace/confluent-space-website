@@ -1,0 +1,52 @@
+%YAML 1.2
+---
+header:
+    title: Kiln Information
+    description: Extra information regarding the kilns available at Confluent.
+    path: resources/kilns
+    page: kilns
+content: |+
+        <section id="rates">
+            <h3 id="fees">Kiln Fees</h3>
+            <p>These rates do not include materials (clay). You must bring your own, subject to approval, or buy from Confluent. Classes involving pottery may include materials in the cost of the class. Glazed pieces (see below) require two firings.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Membership</th>
+                        <th>Cost</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Day Pass</td>
+                        <td>$15 per kiln firing</td>
+                    </tr>
+                    <tr>
+                        <td>Five Day Pass</td>
+                        <td>$15 per kiln firing</td>
+                    </tr>
+                    <tr>
+                        <td>Basic Membership</td>
+                        <td>$15 per kiln firing</td>
+                    </tr>
+                    <tr>
+                        <td>Business Hours Only</td>
+                        <td>$5 per kiln firing</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <div class="callout">
+            <section>
+                <h3 id="firing">What is a "firing"?</h3>
+                <p>Firing is the process of putting dried shaped clay into a kiln and letting the kiln slowly heat up to the high temperature needed for baking. When the desired temperature is reached, the kiln will turn off and start slowly cooling down. A normal kiln firing takes many hours to complete to avoid breaking or exploding pieces.</p>
+                <h3 id="glaze">What is "glaze"?</h3>
+                <p>Glaze is a substance which hardens and fuses to ceramic (fired clay) when heated providing color, decoration, and waterproofing. Glazed ceramics must be fired again to make the glaze permanent. At Confluent as fees are per firing not per piece, you will need to pay for two firings to finish a glazed piece.</p>
+            </section>
+        </div>
+        <section>
+            <h3 id="types">What types of kilns do you have?</h3>
+            <p>We have two medium-sized electric kilns.</p>
+            <h3 id="times">When do you run your kilns?</h3>
+            <p>We run them when we have pieces to fire, when our resident kiln expert is available, and typically late in the evening so they can run over night and avoid conflicting with normal usages of the garage space. Please plan ahead to make sure you have plenty of time if we are not able to fire your piece right away.</p>
+        </section>

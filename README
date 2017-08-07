@@ -1,0 +1,27 @@
+Generating the website:
+
+    python website.py
+
+This will look in src/* and output the files into site/*. Every page is a YAML
+file with the following format:
+
+    %YAML 1.2
+    header:
+        title: Unique page title
+        description: Social media link description for the page
+        path: nice/URL/configured/in/webserver
+        page: internal-page-name
+    content: |
+        Individual page content goes here, formatted as wanted.
+
+The path property should not include a leading or trailing slash. The page
+property needs to  match the name of the extra style and image files needed by
+the page. The pipe indicates the content that follows is pre-formatted, so any
+indentation and spacing matters.
+
+The library ruamel.yaml is required to be installed (via pip).
+
+When generating the site, every page source will be read in, as well as the nav,
+header, and footer source files. The header is then populated with the metadata
+and the nav, content, and footers are concatenated before writing out the final
+file to the site directory.

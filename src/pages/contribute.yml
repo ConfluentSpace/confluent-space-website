@@ -1,0 +1,33 @@
+%YAML 1.2
+---
+header:
+    title: Contribute
+    description: We are member and volunteer run, and as such we need many contributions whether they be supplies, time, knowledge, or money.
+    path: contribute
+    page: contribute
+content: |
+        <section>
+            <h3>How can I contribute?</h3>
+            <p>We are member and volunteer run, and as such we need many contributions whether they be supplies, time, knowledge, or money. However we have identified a few key areas below.</p>
+        </section>
+        <div class="callout">
+            <section>
+                <h3>Teaching</h3>
+                <p>Teachers are our best asset. We are always looking for volunteers to offer a variety of interesting classes to keep people coming and help our mission of education. We have offered classes from <a href="https://en.wikipedia.org/wiki/Mail_art">mail art</a> and sewing to <a href="https://en.wikipedia.org/wiki/Python_(programming_language)">Python</a> and <a href="https://en.wikipedia.org/wiki/3D_printing">3D printing</a>.</p>
+                <p>If you are interested in teaching or know someone who is, please email us at <a href="mailto:confluent.space@gmail.com">confluent.space@gmail.com</a> or stop by the space during business hours. Prospective teacher should read our informational page on scheduling a class.</p>
+                <a class="page" href="/contribute/teaching">Teaching Information</a>
+            </section>
+        </div>
+        <section>
+            <h3>Grant Writing</h3>
+            <p>Are you a persuasive writer? There’s many grants that need our name on them. If you are interested in helping, please send us a ping at <a href="mailto:confluent.space@gmail.com">confluent.space@gmail.com</a>. If you have a specific grant in mind be sure to mention it and include the requirements.</p>
+        </section>
+        <section>
+            <h3>Equipment</h3>
+            <p>Have something you think would benefit the space? We are always looking for additional tools and supplies and are willing to set up loan agreements in some cases. Please check out our <a href="#">wishlist</a> of items we are interested in. Feel free to send to us at <a href="mailto:confluent.space@gmail.com">confluent.space@gmail.com</a>. We do not accept anything broken.</p>
+        </section>
+        <section>
+            <h3>Money</h3>
+            <p>Our membership is growing but there are still costs required to keep this place awesome. Your donations mean a lot to us. You can donate online via the link below or stop by the space during business hours.</p>
+            <a class="page" href="https://store.confluent.space/product/awesome-donation/">Donate</a>
+        </section>

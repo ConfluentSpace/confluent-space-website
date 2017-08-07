@@ -1,0 +1,221 @@
+%YAML 1.2
+---
+header:
+    title: Confluent
+    subtitle: Imagine - Make - Learn
+    description: Confluent is a 501(c)3 non-profit with space and tools to bring your imagination into reality.
+    page: summary
+content: |
+        <section class="business-info">
+            <h3>Location and Hours</h3>
+            ${businessinfo}
+        </section>
+        <div class="callout">
+            <div>
+                <section id="what">
+                    <h3>What is Confluent?</h3>
+                    <p>Confluent is a 501(c)3 non-profit with space and tools to bring your imagination into reality.</p>
+                    <a href="/about-us">Learn More</a>
+                </section>
+                <section id="when">
+                    <h3>What do we do?</h3>
+                    <p>We host classes, workshops, and events as well as provide a space for people to learn, work on their projects, and have fun.</p>
+                    <a href="/calendar">See What’s Hot</a>
+                </section>
+                <section id="how">
+                    <h3>How can I contribute?</h3>
+                    <p>We accept various monetary and non-monetary donations or support. Every dollar donated is invested directly into the space or its events.</p>
+                    <a href="/contribute">Learn More</a>
+                </section>
+            </div>
+        </div>
+        <section id="memberships">
+            <h3>Join Us!</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>One Day Pass</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Cost</th>
+                        <td>$10</td>
+                    </tr>
+                    <tr>
+                        <th>Duration</th>
+                        <td>1 Day</td>
+                    </tr>
+                    <tr>
+                        <th>Classes &amp; Workshops</th>
+                        <td><i class="fa fa-check"><span>yes</span></i></td>
+                    </tr>
+                    <tr>
+                        <th>Host Socials**</th>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <th>Basic Shop Tools</th>
+                        <td><i class="fa fa-check"><span>yes</span></i></td>
+                    </tr>
+                    <tr>
+                        <th>Electronics Lab</th>
+                        <td><i class="fa fa-check"><span>yes</span></i></td>
+                    </tr>
+                    <tr>
+                        <th>Art Studio</th>
+                        <td><i class="fa fa-check"><span>yes</span></i></td>
+                    </tr>
+                    <tr>
+                        <th>Kiln Usage</th>
+                        <td><i class="fa fa-check"><span>yes</span></i> + <a href="/resources/kilns#fees">$15 Firing Fee</a></td>
+                    </tr>
+                    <tr>
+                        <th>Laser Cutter</th>
+                        <td><i class="fa fa-check"><span>yes</span></i> + <a href="/resources/laser-cutter#rates">Usage Charges</a></td>
+                    </tr>
+                </tbody>
+            </table><!--
+         --><table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Five Day Pass</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Cost</th>
+                        <td><s>$50</s> $40</td>
+                    </tr>
+                    <tr>
+                        <th>Duration</th>
+                        <td>5 Days*</td>
+                    </tr>
+                    <tr>
+                        <th>Classes &amp; Workshops</th>
+                        <td><i class="fa fa-check"><span>yes</span></i></td>
+                    </tr>
+                    <tr>
+                        <th>Host Socials**</th>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <th>Basic Shop Tools</th>
+                        <td><i class="fa fa-check"><span>yes</span></i></td>
+                    </tr>
+                    <tr>
+                        <th>Electronics Lab</th>
+                        <td><i class="fa fa-check"><span>yes</span></i></td>
+                    </tr>
+                    <tr>
+                        <th>Art Studio</th>
+                        <td><i class="fa fa-check"><span>yes</span></i></td>
+                    </tr>
+                    <tr>
+                        <th>Kiln Usage</th>
+                        <td><i class="fa fa-check"><span>yes</span></i> + <a href="/resources/kilns#fees">$15 Firing Fee</a></td>
+                    </tr>
+                    <tr>
+                        <th>Laser Cutter</th>
+                        <td><i class="fa fa-check"><span>yes</span></i> + <a href="/resources/laser-cutter#rates">Usage Charges</a></td>
+                    </tr>
+                </tbody>
+            </table><!--
+         --><table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Basic Membership</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Cost</th>
+                        <td>$35</td>
+                    </tr>
+                    <tr>
+                        <th>Duration</th>
+                        <td>1 Month</td>
+                    </tr>
+                    <tr>
+                        <th>Classes &amp; Workshops</th>
+                        <td><i class="fa fa-check"><span>yes</span></i> (Discounted)</td>
+                    </tr>
+                    <tr>
+                        <th>Host Socials**</th>
+                        <td><i class="fa fa-check"><span>yes</span></i> (Once a Month)</td>
+                    </tr>
+                    <tr>
+                        <th>Basic Shop Tools</th>
+                        <td>(Day Pass)</td>
+                    </tr>
+                    <tr>
+                        <th>Electronics Lab</th>
+                        <td>(Day Pass)</td>
+                    </tr>
+                    <tr>
+                        <th>Art Studio</th>
+                        <td>(Day Pass)</td>
+                    </tr>
+                    <tr>
+                        <th>Kiln Usage</th>
+                        <td><i class="fa fa-check"><span>yes</span></i> + <a href="/resources/kilns#fees">$15 Firing Fee</a></td>
+                    </tr>
+                    <tr>
+                        <th>Laser Cutter</th>
+                        <td>(Day Pass)</td>
+                    </tr>
+                </tbody>
+            </table><!--
+         --><table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Business Hours Membership</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Cost</th>
+                        <td>$65</td>
+                    </tr>
+                    <tr>
+                        <th>Duration</th>
+                        <td>1 Month</td>
+                    </tr>
+                    <tr>
+                        <th>Classes &amp; Workshops</th>
+                        <td><i class="fa fa-check"><span>yes</span></i> (Discounted)</td>
+                    </tr>
+                    <tr>
+                        <th>Host Socials**</th>
+                        <td><i class="fa fa-check"><span>yes</span></i> (Once a Month)</td>
+                    </tr>
+                    <tr>
+                        <th>Basic Shop Tools</th>
+                        <td><i class="fa fa-check"><span>yes</span></i></td>
+                    </tr>
+                    <tr>
+                        <th>Electronics Lab</th>
+                        <td><i class="fa fa-check"><span>yes</span></i></td>
+                    </tr>
+                    <tr>
+                        <th>Art Studio</th>
+                        <td><i class="fa fa-check"><span>yes</span></i></td>
+                    </tr>
+                    <tr>
+                        <th>Kiln Usage</th>
+                        <td><i class="fa fa-check"><span>yes</span></i> + <a href="/resources/kilns#fees">$5 Firing Fee</a></td>
+                    </tr>
+                    <tr>
+                        <th>Laser Cutter</th>
+                        <td><i class="fa fa-check"><span>yes</span></i></td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="fineprint">* Can be non-consecutive; tracked by punch card.</p>
+            <p class="fineprint">** Only one member required to host. Other attendees can be non-members. Must be open to the public.</p>
+            <p>We offer discounts to groups, starting with as few as two people. Check in with us for details.</p>
+        </section>

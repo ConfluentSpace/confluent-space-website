@@ -1,0 +1,43 @@
+%YAML 1.2
+---
+header:
+    title: Teaching Information
+    description: We’re always interested in people willing to teach classes at Confluent. We will help schedule your class and promote it, however to make this easier for us you should read this page.
+    path: contribute/teacher-info
+    page: teaching
+content: |
+        <section>
+            <h3>Scheduling a Class</h3>
+            <p>We’re always interested in people willing to teach classes at Confluent. We will help schedule your class and promote it, however to make this easier for us you should be able to answer the following questions:</p>
+            <ul>
+                <li>What is the minimum age for your class?</li>
+                <li>What are you hoping people will come away with?</li>
+                <li>Will the class require any tools or supplies?</li>
+                <li>If you require supplies, what would be the cost of those supplies?</li>
+                <li>What will you bring and what do you expect people to bring?</li>
+                <li>Will the class have a maximum number of “seats” available?</li>
+                <li>What do you want in return?</li>
+            </ul>
+            <p>Many of these will help you to write a class description and help us to know how to promote it. A good description will get more people interested in your class. Please note the shop has an absolute minimum age of 18+, the classroom space has an absolute minimum of 8+, and minors must be accompanied by an adult up to age 15.</p>
+            <p>In addition, Confluent will not schedule classes until the following has been provided:</p>
+            <ul>
+                <li>The expected length of the class. (1h, 3h, etc.)</li>
+                <li>A one to two paragraph description of the class suitable for posting to social media and on our calendar.</li>
+                <li>A relevant photo you have the rights or license to use.</li>
+            </ul>
+            <p>Optionally you can also provide a relevant short video, preferably 30s or less, or a link to one. This is not in place of the photo requirement.</p>
+            <p>Finally, if you have any days or times you would prefer to hold the class or days and times we should not schedule your class, please let us know. If you have those things and are ready to go, feel free to contact us at <a href="mailto:confluent.space@gmail.com">confluent.space@gmail.com</a>.</p>
+        </section>
+        <section>
+            <h3>Tips on Class Length</h3>
+            <p>If your class is going to be 3-5 hours in length, you should budget time for a break. 5 hour classes should have at least a half-hour break. Classes over 5 hours will likely do better if broken up into several classes at least a week apart. Longer classes seem to receive less interest and people may find it easier to come two separate weekends rather than two days in a row.</p>
+        </section>
+        <section>
+            <h3>Rescheduling or Canceling</h3>
+            <p>If the fates conspire and you need to postpone your scheduled class or cancel it altogether, please let us know as soon as possible. This will give us time to update our calendar and contact anyone who has signed up for your class so they don’t show up on the original date.</p>
+        </section>
+        <section>
+            <h3>On the Day of the Class</h3>
+            <p>Please try to arrive at least half an hour before your class, as needed. This will give you time to get set up and arrange any tables, chairs, or workspace you need for your class. If you’ve forgotten something, this will also potentially give you enough time to run out to get it.</p>
+            <p>If you are bringing a computer and need to use our TV, don’t forget to bring any adapters you need. The TV accepts HDMI, component, and composite inputs. We can provide an HDMI cable but do not have any adapters.</p>
+        </section>
