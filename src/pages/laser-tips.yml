@@ -40,7 +40,7 @@ content: |
             <section>
                 <h3 id="acrylic">Slotting into Acrylic (Joints)</h3>
                 <p><strong>Acrylic cement can join acrylic if used effectively but it is a real pain to deal with, requires a well ventilated area, and is easy to get everywhere.</strong> If you must use it, you will want to have some mineral spirits on hand, or a similar product, to remove cement fingerprints and other imperfections. You should definitely build a jig to hold and your parts together while the cement works its magic. You don’t want to have to sit and wait while holding them together.</p>
-                <p>Rather than using cement, you might find it useful to do like at the right and put in a slot instead. This can be used for awards and notch joints. <strong>Unfortunately by default a straight rectangular hole the right size for holding the other part effectively will cause the acrylic to crack from the stress.</strong> However if you put a partial circle at each corner instead of a 90° angle, the acrylic will not crack. <a href="http://www.ponoko.com/blog/2010/06/17/how-to-make-snug-joints-in-acrylic/">Ponoko</a> has a great article on how to do this.</p>
+                <p>Rather than using cement, you might find it useful to put in a slot instead. This can be used for awards and notch joints. <strong>Unfortunately by default a straight rectangular hole the right size for holding the other part effectively will cause the acrylic to crack from the stress.</strong> However if you put a partial circle at each corner instead of a 90° angle, the acrylic will not crack. <a href="http://www.ponoko.com/blog/2010/06/17/how-to-make-snug-joints-in-acrylic/">Ponoko</a> has a great article on how to do this.</p>
             </section>
         </div>
         <section id="painting">
@@ -57,6 +57,7 @@ content: |
                 <h3 id="sprues">Sprues (Part or Kit Boards)</h3>
                 <aside>
                     <img src="/images/pages/laser-tips/sprues.png" alt="Example of a plywood sheet with sprues">
+                    <span>© Destructor Fleet Designs, used with permission</span>
                 </aside>
                 <p><strong>sprue n.</strong> A channel through which metal or plastic is poured into a mold, joining a number of small molded items.</p>
                 <p>Traditionally this term has applied to things like plastics but there’s no reason it can’t be applied to any similar concept. They’re typically seen in plastic model kits where all the parts are attached to each other in a larger sheet. It’s not always space efficient but it ensures every kit has all the parts it needs and makes it easy for the factory to assemble boxes.</p>
