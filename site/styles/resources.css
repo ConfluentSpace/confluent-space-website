@@ -82,7 +82,7 @@ section:after {
     text-align: center;
 }
 
-.extra-pages > section {
+.extra-pages > section, .callout > section:last-of-type {
     margin-bottom: 0;
 }
 

@@ -251,6 +251,7 @@ section aside {
     float: right;
     max-width: 45%;
     margin-left: 1.25em;
+    margin-bottom: 1em;
 }
 
 section aside img {
@@ -263,7 +264,6 @@ aside img + span {
 
     display: block;
     margin-top: -1.35em;
-    margin-bottom: 1.5em;
     font-size: .85em;
     text-indent: .5em;
     opacity: .8;
