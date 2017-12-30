@@ -286,11 +286,11 @@ h3 {
     font-size: 1.5em;
 }
 
-strong {
+strong, strong a {
     color: #f99d33;
 }
 
-.callout strong {
+.callout strong, .callout strong a {
     color: #1e4897;
 }
 
