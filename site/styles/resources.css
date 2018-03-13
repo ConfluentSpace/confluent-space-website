@@ -32,22 +32,6 @@ section:after {
     clear: right;   
 }
 
-@media (max-width: 799px) {
-    section {
-        display: flex;
-        flex-direction: column;
-    }
-
-    section h3 {
-        order: -2;
-    }
-
-    .page {
-        left: auto;
-        transform: none;
-    }
-}
-
 .footnote:last-child {
     margin-bottom: .5em;
 }
@@ -93,8 +77,29 @@ section:after {
 .extra-pages .page {
     left: auto;
     transform: none;
+    text-align: center;
 }
 
 .extra-pages .page + .page {
     margin-left: .75em;
+}
+
+@media (max-width: 799px) {
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section h3 {
+        order: -2;
+    }
+
+    .page {
+        left: auto;
+        transform: none;
+    }
+
+    .extra-pages .page + .page {
+        margin-left: 0;
+    }
 }
