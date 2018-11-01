@@ -40,22 +40,26 @@ content: |
                 </thead>
                 <tbody>
                     <tr>
-                        <th>Cost</th>
-                        <td>$10</td>
+                        <th>Cost*</th>
+                        <td>$15</td>
                     </tr>
                     <tr>
                         <th>Duration</th>
                         <td>1 Day</td>
                     </tr>
                     <tr>
-                        <th>Classes &amp; Workshops</th>
-                        <td><i class="fa fa-check"><span>yes</span></i></td>
+                        <th>Key Card Access</th>
+                        <td>&nbsp;</td>
                     </tr>
                     <tr>
                         <th>Host Socials**</th>
                         <td>&nbsp;</td>
                     </tr>
                     <tr>
+                        <th>Classes &amp; Workshops</th>
+                        <td><i class="fa fa-check"><span>yes</span></i></td>
+                    </tr>
+                    <tr>
                         <th>Basic Shop Tools</th>
                         <td><i class="fa fa-check"><span>yes</span></i></td>
                     </tr>
@@ -81,27 +85,31 @@ content: |
                 <thead>
                     <tr>
                         <th></th>
-                        <th>Five Day Pass</th>
+                        <th>Standard Access Membership</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th>Cost</th>
-                        <td><s>$50</s> $40</td>
+                        <th>Cost*</th>
+                        <td>$50</td>
                     </tr>
                     <tr>
                         <th>Duration</th>
-                        <td>5 Days*</td>
+                        <td>1 Month</td>
                     </tr>
                     <tr>
-                        <th>Classes &amp; Workshops</th>
-                        <td><i class="fa fa-check"><span>yes</span></i></td>
-                    </tr>
-                    <tr>
-                        <th>Host Socials**</th>
+                        <th>Key Card Access</th>
                         <td>&nbsp;</td>
                     </tr>
                     <tr>
+                        <th>Host Socials**</th>
+                        <td><i class="fa fa-check"><span>yes</span></i> (Once a Month)</td>
+                    </tr>
+                    <tr>
+                        <th>Classes &amp; Workshops</th>
+                        <td><i class="fa fa-check"><span>yes</span></i> (Discounted)</td>
+                    </tr>
+                    <tr>
                         <th>Basic Shop Tools</th>
                         <td><i class="fa fa-check"><span>yes</span></i></td>
                     </tr>
@@ -115,11 +123,11 @@ content: |
                     </tr>
                     <tr>
                         <th>Kiln Usage</th>
-                        <td><i class="fa fa-check"><span>yes</span></i> + <a href="/resources/kilns#fees">$15 Firing Fee</a></td>
+                        <td><i class="fa fa-check"><span>yes</span></i> + <a href="/resources/kilns#fees">$5 Firing Fee</a></td>
                     </tr>
                     <tr>
                         <th>Laser Cutter</th>
-                        <td><i class="fa fa-check"><span>yes</span></i> + <a href="/resources/laser-cutter#rates">Usage Charges</a></td>
+                        <td><i class="fa fa-check"><span>yes</span></i></td>
                     </tr>
                 </tbody>
             </table><!--
@@ -127,71 +135,29 @@ content: |
                 <thead>
                     <tr>
                         <th></th>
-                        <th>Basic Membership</th>
+                        <th>Extended Access Membership</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th>Cost</th>
-                        <td>$35</td>
+                        <th>Cost*</th>
+                        <td>$75 + $35 setup fee</td>
                     </tr>
                     <tr>
                         <th>Duration</th>
                         <td>1 Month</td>
                     </tr>
                     <tr>
-                        <th>Classes &amp; Workshops</th>
-                        <td><i class="fa fa-check"><span>yes</span></i> (Discounted)</td>
+                        <th>Key Card Access</th>
+                        <td><i class="fa fa-check"><span>yes</span></i> 7am-10pm Tue-Sun</td>
                     </tr>
                     <tr>
                         <th>Host Socials**</th>
                         <td><i class="fa fa-check"><span>yes</span></i> (Once a Month)</td>
                     </tr>
                     <tr>
-                        <th>Basic Shop Tools</th>
-                        <td>(Needs Day Pass)</td>
-                    </tr>
-                    <tr>
-                        <th>Electronics Lab</th>
-                        <td>(Needs Day Pass)</td>
-                    </tr>
-                    <tr>
-                        <th>Art Studio</th>
-                        <td>(Needs Day Pass)</td>
-                    </tr>
-                    <tr>
-                        <th>Kiln Usage</th>
-                        <td><i class="fa fa-check"><span>yes</span></i> + <a href="/resources/kilns#fees">$15 Firing Fee</a></td>
-                    </tr>
-                    <tr>
-                        <th>Laser Cutter</th>
-                        <td><i class="fa fa-check"><span>yes</span></i> + <a href="/resources/laser-cutter#rates">Usage Charges</a></td>
-                    </tr>
-                </tbody>
-            </table><!--
-         --><table>
-                <thead>
-                    <tr>
-                        <th></th>
-                        <th>Business Hours Membership</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th>Cost</th>
-                        <td>$65</td>
-                    </tr>
-                    <tr>
-                        <th>Duration</th>
-                        <td>1 Month</td>
-                    </tr>
-                    <tr>
                         <th>Classes &amp; Workshops</th>
                         <td><i class="fa fa-check"><span>yes</span></i> (Discounted)</td>
-                    </tr>
-                    <tr>
-                        <th>Host Socials**</th>
-                        <td><i class="fa fa-check"><span>yes</span></i> (Once a Month)</td>
                     </tr>
                     <tr>
                         <th>Basic Shop Tools</th>
@@ -215,7 +181,7 @@ content: |
                     </tr>
                 </tbody>
             </table>
-            <p class="fineprint">* Can be non-consecutive; tracked by punch card.</p>
+            <p class="fineprint">* We offer a 15% discount to groups of two or more people. Any fees are not discounted. Groups must pay for all their members together and they must have the same membership level.</p>
             <p class="fineprint">** Only one member required to host. Other attendees can be non-members. Must be open to the public.</p>
-            <p>We offer discounts to groups, starting with as few as two people. Check in with us for details.</p>
+            <p>View our <a href="/resources/documents#membership">membership agreement</a> and <a href="/resources/documents#membership">extended access agreement</a> online.</p>
         </section>

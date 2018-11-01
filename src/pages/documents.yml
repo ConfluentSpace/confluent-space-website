@@ -1,0 +1,38 @@
+%YAML 1.2
+---
+header:
+    title: Digital Filing Cabinet
+    description: Documents and agreements available for reading and personal user.
+    path: resources/documents
+    page: documents
+content: |
+        <nav>
+            <ul>
+                <li><a href="#membership">Membership Agreements</a></li>
+                <li><a href="#tools">Workspace and Tool Agreements</a></li>
+                <li><a href="#rentals">Rentals and Loans</a></li>
+            </ul>
+        </nav>
+        <div class="callout">
+            <section id="membership">
+                <h3>Membership Agreements</h3>
+                <ul>
+                    <li><a href="/files/Membership%20Agreement.pdf">Membership Agreement</a> (Updated 2018-10-31)</li>
+                    <li><a href="/files/Extended%20Access%20Agreement.pdf">Extended Access Agreement</a> (Updated 2018-10-22)</li>
+                </ul>
+            </section>
+        </div>
+        <section>
+            <h3 id="tools">Workspace and Tool Agreements</h3>
+            <ul>
+                <li><a href="/files/Laser%20Cutter%20Obligations%20and%20Notices.pdf">Laser Cutter Agreement</a> (Updated 2017-09-11)</li>
+            </ul>
+        </section>
+        <section>
+            <h3 id="rentals">Rentals and Loans</h3>
+            <p>Confluent does not rent out tools. The loan agreement below is for people who wish to loan equipment to us.</p>
+            <ul>
+                <li><a href="/files/Equipment%20Loan%20Agreement.pdf">Equipment Loan Agreement</a> (Updated 2015-12-01)</li>
+                <li><a href="/files/Crate%20Deposit%20Agreement.pdf">Storage Crate Rental</a> (Updated 2018-02-03)</li>
+            </ul>
+        </section>
