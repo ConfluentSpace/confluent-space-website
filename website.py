@@ -85,6 +85,17 @@ for file in glob.glob('src/pages/*.yml'):
         else:
             output = re.sub(r'\${page}', '', output)
 
+        if 'extras' in data['header']:
+            linebr = '\n'
+            extras = re.sub(r'^(?=[^$])', '        ', data['header']['extras'], flags=re.MULTILINE)
+            extras = re.sub(r'\n$', '', extras, flags=re.MULTILINE)
+            if ff.find('\r\n') != -1:
+                extras = re.sub(r'\n', '\r\n', extras)
+                linebr = '\r\n';
+            output = re.sub(r'\${extras}', linebr + extras, output)
+        else:
+            output = re.sub(r'\${extras}', '', output)
+
         # This may have to get fixed when the required library supports proper indication of
         # not eating ("chomping" according to spec) leading spaces
         content = re.sub(r'^(?=[^$])', '        ', content, flags=re.MULTILINE)

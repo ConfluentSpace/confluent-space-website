@@ -1,0 +1,38 @@
+%YAML 1.2
+---
+header:
+    title: Calendar
+    description: The current event calendar.
+    path: calendar
+    page: calendar
+    extras: |
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.7.23/webcomponents-lite.min.js"></script>
+        <link rel="import" href="calendar/calendarComponent.php">
+        <script>
+          // Inactivity Refresh
+          (function() {
+            var REFRESH_INTERVAL_MS = 60000;
+            
+            var t;
+            window.onload = resetTimer;
+            // DOM Events
+            document.onmousemove = resetTimer;
+            document.onkeypress = resetTimer;
+            document.onclick = resetTimer;     // touchpad clicks
+            document.onscroll = resetTimer;    // scrolling with arrow keys
+            
+            function logout() {
+              window.location.href = "#events";
+              window.location.reload();
+            }
+            
+            function resetTimer() {
+                clearTimeout(t);
+                t = setTimeout(logout, REFRESH_INTERVAL_MS)
+            }
+          })();
+        </script>
+content: |
+        <section class="calendar">
+          <confluent-calendar></confluent-calendar>
+        </section>
