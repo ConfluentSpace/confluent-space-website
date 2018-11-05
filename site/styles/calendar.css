@@ -1,23 +1,23 @@
 /* See main.css for default definitions. */
 html {
-    background-image: url(../images/pages/laser-cutter/banner-1024.png);
+    background-image: url(../images/pages/calendar/banner-1024.png);
 }
 
 @media (min-width: 1025px) {
     html {
-        background-image: url(../images/pages/laser-cutter/banner-1680.gif);
+        background-image: url(../images/pages/calendar/banner-1680.gif);
     }
 }
 
 @media (min-width: 1681px) {
     html {
-        background-image: url(../images/pages/laser-cutter/banner-1920.gif);
+        background-image: url(../images/pages/calendar/banner-1920.gif);
     }
 }
 
 /*@media (min-width: 1921px) {
     html {
-        background-image: url(../images/pages/laser-cutter/banner.gif);
+        background-image: url(../images/pages/calendar/banner.gif);
     }
 }*/
 
