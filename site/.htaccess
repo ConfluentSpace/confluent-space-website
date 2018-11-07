@@ -1,0 +1,28 @@
+RewriteEngine On
+RewriteRule ^admin/?$ https://store.confluent.space/admin [R=307]
+RewriteRule ^wp-admin.php/?$ https://store.confluent.space/wp-admin.php [R=307]
+RewriteRule ^wp-admin/?$ https://store.confluent.space/wp-admin [R=307]
+RewriteRule ^about-us/?$ /about.html
+RewriteRule ^tools/?$ /resources.html
+RewriteRule ^resources/?$ /resources.html
+RewriteRule ^resources/documents/?$ /documents.html
+RewriteRule ^tools/laser-cutter/?$ /laser-cutter.html
+RewriteRule ^tools/laser-cutter/tips/?$ /laser-tips.html
+RewriteRule ^resources/laser-cutter/?$ /laser-cutter.html
+RewriteRule ^resources/laser-cutter/tips/?$ /laser-tips.html
+RewriteRule ^resources/laser-cutter/materials/?$ /laser-materials.html
+RewriteRule ^tools/3d-printers/?$ /3d-printers.html
+RewriteRule ^resources/3d-printers/?$ /3d-printers.html
+RewriteRule ^resources/kilns/?$ /kilns.html
+RewriteRule ^calendar/?$ /calendar.html
+RewriteRule ^event/(.*)$ https://store.confluent.space/event/$1 [R=307]
+RewriteRule ^event/?$ https://store.confluent.space/event [R=307]
+RewriteRule ^shop/?$ https://store.confluent.space/shop [R=307]
+RewriteRule ^product/(.*)$ https://store.confluent.space/product/$1 [R=307]
+RewriteRule ^product-category/(.*)$ https://store.confluent.space/product-category/$1 [R=307]
+RewriteRule ^contribute/teacher-info/?$ /teaching.html
+RewriteRule ^contribute/teaching/?$ /teaching.html
+RewriteRule ^contribute/?$ /contribute.html
+
+ErrorDocument 403 /403.html
+ErrorDocument 404 /404.html
