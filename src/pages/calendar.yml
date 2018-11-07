@@ -11,7 +11,7 @@ header:
         <script>
           // Inactivity Refresh
           (function() {
-            var REFRESH_INTERVAL_MS = 60000;
+            var REFRESH_INTERVAL_MS = 600000;
             
             var t;
             window.onload = resetTimer;
