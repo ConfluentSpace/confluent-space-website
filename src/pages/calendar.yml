@@ -35,4 +35,5 @@ header:
 content: |
         <section class="calendar">
           <confluent-calendar></confluent-calendar>
+          <p>This calendar only shows the next two month's worth of events. We also post them to <a href="https://facebook.com/ConfluentSpace/events/">Facebook</a> if that's more your thing.</p>
         </section>
