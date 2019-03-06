@@ -18,19 +18,15 @@ content: |+
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Day Pass</td>
+                        <td>One Day Pass</td>
                         <td>$15 per kiln firing</td>
                     </tr>
                     <tr>
-                        <td>Five Day Pass</td>
-                        <td>$15 per kiln firing</td>
+                        <td>Standard Access Membership</td>
+                        <td>$5 per kiln firing</td>
                     </tr>
                     <tr>
-                        <td>Basic Membership</td>
-                        <td>$15 per kiln firing</td>
-                    </tr>
-                    <tr>
-                        <td>Business Hours Only</td>
+                        <td>Extended Access Membership</td>
                         <td>$5 per kiln firing</td>
                     </tr>
                 </tbody>
@@ -46,7 +42,7 @@ content: |+
         </div>
         <section>
             <h3 id="types">What types of kilns do you have?</h3>
-            <p>We have two medium-sized electric kilns.</p>
+            <p>We have one medium-sized electric kiln.</p>
             <h3 id="times">When do you run your kilns?</h3>
             <p>We run them when we have pieces to fire, when our resident kiln expert is available, and typically late in the evening so they can run over night and avoid conflicting with normal usages of the garage space. Please plan ahead to make sure you have plenty of time if we are not able to fire your piece right away.</p>
         </section>
