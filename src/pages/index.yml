@@ -64,6 +64,10 @@ content: |
                         <td><i class="fa fa-check"><span>yes</span></i></td>
                     </tr>
                     <tr>
+                        <th>Advanced Shop Tools</th>
+                        <td><i class="fa fa-check"><span>yes</span></i> (Training Not Incl.)</td>
+                    </tr>
+                    <tr>
                         <th>Electronics Lab</th>
                         <td><i class="fa fa-check"><span>yes</span></i></td>
                     </tr>
@@ -110,6 +114,10 @@ content: |
                         <td><i class="fa fa-check"><span>yes</span></i></td>
                     </tr>
                     <tr>
+                        <th>Advanced Shop Tools</th>
+                        <td><i class="fa fa-check"><span>yes</span></i> (After Training)</td>
+                    </tr>
+                    <tr>
                         <th>Electronics Lab</th>
                         <td><i class="fa fa-check"><span>yes</span></i></td>
                     </tr>
@@ -154,6 +162,10 @@ content: |
                     <tr>
                         <th>Basic Shop Tools</th>
                         <td><i class="fa fa-check"><span>yes</span></i></td>
+                    </tr>
+                    <tr>
+                        <th>Advanced Shop Tools</th>
+                        <td><i class="fa fa-check"><span>yes</span></i> (After Training)</td>
                     </tr>
                     <tr>
                         <th>Electronics Lab</th>
