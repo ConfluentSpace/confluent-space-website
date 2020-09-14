@@ -34,8 +34,8 @@ content: |
         </div>
         <section>
             <h3>Garage Space</h3>
-            <p>The garage includes our pottery tools and other work areas. <strong>No alcohol is allowed in this space at any time.</strong></p>
-            <aside>
+            <p>The garage includes our various supplies and and other work areas. <strong>No alcohol is allowed in this space at any time.</strong></p>
+            <aside class="fixme">
                  <img src="/images/pages/resources/garage.jpg" alt="Inside view of the garage">
             </aside>
             <ul>
@@ -43,16 +43,15 @@ content: |
                 <li>Work tables</li>
                 <li>Spray booth</li>
                 <li>Acrylic bender</li>
-                <li>Hand tools (screwdrivers, pliers, tape measures, etc.)</li>
-                <li>Bike Repair and Maintenance Station**</li>
+                <li>Thin sheet metal cutter</li>
+                <li>Large 3D printer</li>
             </ul>
-            <p class="footnote">** Requires training from <a href="https://wheelhouse.bike">Wheelhouse Community Bike Shop</a></p>
         </section>
         <div class="callout extra-pages">
             <section>
                 <h3>Electronics Lab</h3>
                 <p>The electronics lab is a partly secluded room attached to the back of the garage. Check our <a href="/calendar">calendar</a> to see when the next 3D printer or laser cutter tool training is scheduled. If there isn’t one available soon <a href="mailto:confluent.space@gmail.com">send us an email</a> or message us <a href="https://www.facebook.com/ConfluentSpace/">on Facebook</a> to arrange one.</p>
-                <aside>
+                <aside class="fixme">
                     <img src="/images/pages/resources/electronicslab.jpg" alt="Corner view of the electronics lab">
                 </aside>
                 <p>Members must be 13 years or older (accompanied by an adult until 18) to use. The laser cutter operators must be 18 years or older. <strong>No alcohol is allowed in this space at any time.</strong></p>
@@ -96,7 +95,7 @@ content: |
                 <h3>Metalworking Shop</h3>
                 <p>The shop is at the back of our building and includes a few metalworking tools. This is a list of the major tools we have available for use. Many of these tools require you to take training first before you can use them. Check our <a href="/calendar">calendar</a> to see when the next tool training is scheduled. If there isn’t one available soon <a href="mailto:confluent.space@gmail.com">send us an email</a> or message us <a href="https://www.facebook.com/ConfluentSpace/">on Facebook</a> for more info.</p>
                 <p>Members must be 18 years or older to use the shop, no exceptions. <strong>No alcohol is allowed in this space at any time.</strong></p>
-                <aside>
+                <aside class="fixme">
                      <img src="/images/pages/resources/metalshop.jpg" alt="Inside view of the metalworking shop">
                 </aside>
                 <ul>
@@ -106,12 +105,13 @@ content: |
                     <li>Metal mill</li>
                     <li>Metal slip roller (hand cranked; adjustable)</li>
                     <li>Welders (MIG wire feed, air stick welder)</li>
+                    <li>Hand tools (screwdrivers, pliers, tape measures, etc.)</li>
                 </ul>
             </section>
         </div>
         <section>
             <h3>Backyard</h3>
-            <aside>
+            <aside class="fixme">
                  <img src="/images/pages/resources/backyard.jpg" alt="View of the backyard">
             </aside>
             <p>Our backyard provides a safe place to use the welding equipment and offers space to work on large projects unable to be brought inside the woodworking or metalworking shops. Two large project tables are available to use here as well as a shaded porch swing. This space is also suitable for use with events and socials.</p>
