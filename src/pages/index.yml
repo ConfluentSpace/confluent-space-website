@@ -31,7 +31,7 @@ content: |
         </div>
         <section id="memberships">
             <h3>Join Us!</h3>
-            <table>
+        <!--    <table>
                 <thead>
                     <tr>
                         <th></th>
@@ -80,7 +80,7 @@ content: |
                         <td><i class="fa fa-check"><span>yes</span></i> + <a href="/resources/laser-cutter#rates">Usage Charges</a></td>
                     </tr>
                 </tbody>
-            </table><!--
+            </table>--><!--
          --><table>
                 <thead>
                     <tr>
@@ -91,7 +91,7 @@ content: |
                 <tbody>
                     <tr>
                         <th>Cost*</th>
-                        <td>$50</td>
+                        <td>$50 + $35 setup fee</td>
                     </tr>
                     <tr>
                         <th>Duration</th>
@@ -99,7 +99,7 @@ content: |
                     </tr>
                     <tr>
                         <th>Access</th>
-                        <td>Standard Hours</td>
+                        <td>Wed-Thur: 5-8pm<br>Fri: 10-8pm<br>Sat-Sun: 10-5pm</td>
                     </tr>
                     <tr>
                         <th>Host Socials**</th>
@@ -149,7 +149,7 @@ content: |
                     </tr>
                     <tr>
                         <th>Access</th>
-                        <td>7am-10pm Tue-Sun</td>
+                        <td><br>7am-10pm Mon-Sun<br>&nbsp;</td>
                     </tr>
                     <tr>
                         <th>Host Socials**</th>
