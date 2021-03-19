@@ -3,3 +3,10 @@ wp*.png
 *.exe
 .DS_Store
 env
+.htaccess
+.htpasswd
+reports
+reports2
+site/calendar
+wp-content
+build
