@@ -13,7 +13,8 @@ RewriteRule ^resources/laser-cutter/tips/?$ /laser-tips.html
 RewriteRule ^resources/laser-cutter/materials/?$ /laser-materials.html
 RewriteRule ^tools/3d-printers/?$ /3d-printers.html
 RewriteRule ^resources/3d-printers/?$ /3d-printers.html
-RewriteRule ^resources/kilns/?$ /kilns.html
+#RewriteRule ^resources/kilns/?$ /kilns.html
+RewriteRule ^resources/large-format-cncs/?$ /large-format-cncs.html
 RewriteRule ^calendar/?$ /calendar.html
 RewriteRule ^event/(.*)$ https://store.confluent.space/event/$1 [R=307]
 RewriteRule ^event/?$ https://store.confluent.space/event [R=307]
