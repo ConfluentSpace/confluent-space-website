@@ -17,54 +17,61 @@ content: |
         <div class="callout">
             <section id="specifications">
                 <h3>Specifications</h3>
-                <p>We have three 3D printers: one OpenBeam Kossel Pro and two Monoprice Select printers. The following specs were borrowed from <a href="https://www.matterhackers.com/store/printer-kits/openbeam-kossel-pro">MatterHackers</a> and <a href="http://www.monoprice.com/product?p_id=13860">Monoprice</a>.</p>
+                <p>We have five 3D printers: one Creality CR-10 S4, two Ender 3 Pros, and two Monoprice Select v2 printers.</p>
                 <table>
                     <thead>
                         <tr>
                             <th></th>
-                            <th>Open<wbr>Beam Kossel Pro</th>
-                            <th>Mono<wbr>price Select</th>
+                            <th>Creality CR-10 S4</th>
+                            <th>Ender 3 Pro</th>
+                            <th>Mono<wbr>Price Maker Select v2</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Build Area</td>
-                            <td>250mm (~9.8″) diameter</td>
-                            <td>200mm x 200mm (~7.8″ x ~7.8″)</td>
+                            <th scope="row">Build Area</th>
+                            <td>400mm x 400mm(~15.8″ x ~15.8″)</td>
+                            <td>220mm x 220mm (~8.6″ x ~8.6″)</td>
+                            <td>200mm x 200mm (~7.9″ x ~7.9″)</td>
                         </tr>
                         <tr>
-                            <td>Build Height</td>
+                            <th scope="row">Build Height</th>
+                            <td>400mm (~15.8″)</td>
                             <td>250mm (~9.8″)</td>
                             <td>180mm (~7″)</td>
                         </tr>
                         <tr>
-                            <td>Filament Diameter</td>
+                            <th scope="row">Filament Diameter</th>
                             <td>1.75mm</td>
                             <td>1.75mm</td>
+                            <td>1.75mm</td>
                         </tr>
                         <tr>
-                            <td>Resolution</td>
-                            <td>.2mm</td>
-                            <td>.2mm</td>
+                            <th scope="row">Nozzle Size</th>
+                            <td>.8mm</td>
+                            <td>.4mm</td>
+                            <td>.4mm</td>
                         </tr>
                         <tr>
-                            <td>Max Extruder Temp</td>
-                            <td>300°C / 572°F*</td>
-                            <td>260°C / 500°F</td>
+                            <th scope="row">Max Extruder Temp</th>
+                            <td>270°C / 518°F</td>
+                            <td>240°C / 464°F</td>
+                            <td>240°C / 464°F</td>
                         </tr>
                         <tr>
-                            <td>Heated Bed</td>
+                            <th scope="row">Heated Bed</th>
                             <td><i class="fa fa-check"><span>yes</span></i></td>
-                            <td><i class="fa fa-check"><span>yes</span></i> </td>
+                            <td><i class="fa fa-check"><span>yes</span></i></td>
+                            <td><i class="fa fa-check"><span>yes</span></i></td>
                         </tr>
                         <tr>
-                            <td>Software</td>
+                            <th scope="row">Software</th>
                             <td>Cura + Octoprint</td>
+                            <td>Cura + SD Card (for now)</td>
                             <td>Cura + Octoprint</td>
                         </tr>
                     </tbody>
                 </table>
-                <p class="footnote">* The printer has issues reading the correct temperature so it may not currently be able to achieve the listed maximum.</p>
             </section>
         </div>
         <section>
@@ -74,12 +81,11 @@ content: |
         </section>
         <section>
             <h3 id="usage">Usage &amp; Reservations</h3>
-            <p>The space only has three printers, so we ask members not to occupy all three printers at once. If you do, you may be asked to abort a print when someone comes in looking to print something. More details on this policy to come.</p>
-            <p>An official 3D printer Google calendar is coming where you can place a reservation for a single 3D printer at a given date and time. If you arrive 15 minutes or later after the start of your reservation it is forfeited and anyone currently at the space can ignore it. If you walk in and use an unavailable, unreserved printer, you must add yourself to the reservation calendar so people know it is in use.</p>
+            <p>We ask members not to occupy all printers at once. If you do, you may be asked to abort a print when someone comes in looking to print something. Some prints can be run overnight, but please ask in advance.</p>
             <p>If you want to know which printers are currently in use, you can visit the <a href="https://status.confluent.space">Confluent status page</a> to find out which ones are busy and if so, how much time is remaining on their print.</p>
         </section>
         <section>
             <h3 id="filament">Filament</h3>
             <p>The space has some filament on hand in assorted colors which is included in the cost of day passes and business hours memberships. We cannot guarantee any particular color for your prints. We will charge you if you intentionally use a lot of our filament. However, you are welcome to bring your own filament to use instead. We currently recommend using HATCHBOX filament with our printers. You can find it on <a href="https://smile.amazon.com/s/ref=lp_14181177011_nr_scat_6066128011_ln?srs=14181177011&rh=n%3A6066128011&ie=UTF8&qid=1482826704&scn=6066128011&h=59aa7c649efa05f6846589530aaf98b4ce697f74">Amazon</a> for about $20 to $35 a kilogram.</p>
-            <p>Due to a lack of ventilation in the electronics lab printing is currently limited to PLA or low off-gassing filaments. Until this is resolved we do not allow printing of ABS or other similar filaments.</p>
+            <p>Due to a lack of enclosures or a ventilation hood, printing is currently limited to PLA or low off-gassing filaments. Until this is resolved we do not allow printing of ABS or other similar filaments.</p>
         </section>

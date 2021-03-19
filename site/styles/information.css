@@ -10,13 +10,14 @@ table td, table th {
     height: 2.8em;
     padding: .25em .5em;
     line-height: 1.4em;
+    text-align: left;
 }
 
-table tr:nth-child(odd) td {
+table tr:nth-child(odd) td, table tbody tr:nth-child(odd) th {
     background: rgba(255, 255, 255, .2);
 }
 
-table td:first-child {
+table td:first-child, table tbody th:first-child {
     border-radius: 5px 0 0 5px;
 }
 
