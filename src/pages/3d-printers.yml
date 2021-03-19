@@ -30,9 +30,9 @@ content: |
                     <tbody>
                         <tr>
                             <th scope="row">Build Area</th>
-                            <td>400mm x 400mm(~15.8″ x ~15.8″)</td>
-                            <td>220mm x 220mm (~8.6″ x ~8.6″)</td>
-                            <td>200mm x 200mm (~7.9″ x ~7.9″)</td>
+                            <td>400mm x 400mm<br>(~15.8″ x ~15.8″)</td>
+                            <td>220mm x 220mm<br>(~8.6″ x ~8.6″)</td>
+                            <td>200mm x 200mm<br>(~7.9″ x ~7.9″)</td>
                         </tr>
                         <tr>
                             <th scope="row">Build Height</th>
