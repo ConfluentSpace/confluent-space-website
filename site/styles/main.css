@@ -120,11 +120,6 @@ header li {
     padding: 0 1.3em;
 }
 
-/* Hide Photo Log page until we implement it. */
-header li:nth-child(3) {
-    display: none;
-}
-
 header li:last-child {
     padding-right: 0;
 }
