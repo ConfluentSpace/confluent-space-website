@@ -51,8 +51,8 @@ content: |
             <section>
                 <h3>3D Printer Area</h3>
                 <p>The 3d printer area occupies a corner of our garage and offers access to several different printers of varying sizes. Check our <a href="/calendar">calendar</a> to see when the next 3D printer tool training is scheduled. If there isn’t one available soon <a href="mailto:confluent.space@gmail.com">send us an email</a> or message us <a href="https://www.facebook.com/ConfluentSpace/">on Facebook</a> to arrange one.</p>
-                <aside class="fixme">
-                    <img src="/images/pages/resources/electronicslab.jpg" alt="Corner view of the electronics lab">
+                <aside>
+                    <img src="/images/pages/resources/3dprinterarea.jpg" alt="View of the 3d printer area in the garage space">
                 </aside>
                 <p>Members must be 13 years or older (accompanied by an adult until 18) to use. <strong>No alcohol is allowed in this space at any time.</strong></p>
                 <a class="page-left" href="/resources/3d-printers">3D Printer Information</a>
