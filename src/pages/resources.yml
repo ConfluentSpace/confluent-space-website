@@ -104,11 +104,13 @@ content: |
         <section>
             <h3>Machine Shop</h3>
             <p>This shop is behind our building and includes some heavy tools. These tools require you to take training before you can use them. <a href="mailto:confluent.space@gmail.com">Send us an email</a> or message us <a href="https://www.facebook.com/ConfluentSpace/">on Facebook</a> to arrange trainings.</p>
-            <aside class="fixme">
-                 <img src="/images/pages/resources/woodshop.jpg" alt="Inside view of the woodworking shop">
+            <aside>
+                 <img src="/images/pages/resources/machineshop.jpg" alt="Inside view of the machine shop showing off the large metal mill with a digital readout">
             </aside>
             <ul>
-                <li>Large metal milling machine</li>
+                <li>Large metal milling machine with digital readout</li>
+                <li>Drill press</li>
+                <li>Metal lathe</li>
             </ul>
         </section>
         <div class="callout">
@@ -116,18 +118,16 @@ content: |
                 <h3>Metalworking Shop</h3>
                 <p>The shop is at the back of our building and includes a few metalworking tools. This is a list of the major tools we have available for use. Many of these tools require you to take training first before you can use them. Check our <a href="/calendar">calendar</a> to see when the next tool training is scheduled. If there isn’t one available soon <a href="mailto:confluent.space@gmail.com">send us an email</a> or message us <a href="https://www.facebook.com/ConfluentSpace/">on Facebook</a> for more info.</p>
                 <p>Members must be 18 years or older to use the shop, no exceptions. <strong>No alcohol is allowed in this space at any time.</strong></p>
-                <aside class="fixme">
+                <aside>
                      <img src="/images/pages/resources/metalshop.jpg" alt="Inside view of the metalworking shop">
                 </aside>
                 <ul>
                     <li>Bench grinder</li>
                     <li>Metal band saw</li>
-                    <li>Metal lathe</li>
-                    <li>Metal mill</li>
                     <li>Metal slip roller (hand cranked; adjustable)</li>
                     <li>Welders (MIG wire feed, air stick welder)</li>
                     <li>Hand tools (screwdrivers, pliers, tape measures, etc.)</li>
-                    <li>Large format router/plotter</li>
+                    <li>Large format CNC plasma cutter (Coming! We're busy working on it)</li>
                 </ul>
                 <div class="extra-pages">
                     <a class="page-left" href="/resources/large-format-cncs">Large Format Plotter Information</a>
