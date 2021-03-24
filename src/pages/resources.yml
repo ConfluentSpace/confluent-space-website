@@ -96,8 +96,10 @@ content: |
                     <li>Reciprocating saw</li>
                     <li>Scroll saw</li>
                     <li>Table saw</li>
-                    <li>Large format CNC (routing) machine</li>
+                    <li>Dust collection system</li>
+                    <li>Large format CNC (routing) machine**</li>
                 </ul>
+                <p class="footnote">** Special training is required to use these.</p>
                 <a class="page" href="/resources/large-format-cncs">Large Format CNC Router Information</a>
             </section>
         </div>
@@ -122,15 +124,16 @@ content: |
                      <img src="/images/pages/resources/metalshop.jpg" alt="Inside view of the metalworking shop">
                 </aside>
                 <ul>
+                    <li>Small drill press</li>
                     <li>Bench grinder</li>
                     <li>Metal band saw</li>
                     <li>Metal slip roller (hand cranked; adjustable)</li>
                     <li>Welders (MIG wire feed, air stick welder)</li>
                     <li>Hand tools (screwdrivers, pliers, tape measures, etc.)</li>
-                    <li>Large format CNC plasma cutter (Coming! We're busy working on it)</li>
+                    <li>Large format CNC plasma cutter (Awaiting rebuild)</li>
                 </ul>
                 <div class="extra-pages">
-                    <a class="page-left" href="/resources/large-format-cncs">Large Format Plotter Information</a>
+                    <a class="page-left" href="/resources/large-format-cncs">Large Format CNC Plasma Cutter Information</a>
                 </div>
             </section>
         </div>
