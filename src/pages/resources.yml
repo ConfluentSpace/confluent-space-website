@@ -1,13 +1,13 @@
 %YAML 1.2
 ---
 header:
-    title: Tools and Resources
+    title: Tools and Spaces
     description: These are the various spaces, tools, and supplies we have.
     path: resources
     page: resources
 content: |
         <section>
-            <h3>Tools and Resources</h3>
+            <h3>Tools and Spaces</h3>
             <p>These are the various spaces, tools, and supplies we have. They are available for members to use at the space only. Feel free to contact us about donations of tools and supplies, however we are only accepting tools in working order. We are also willing to work out equipment loans if you do not wish to donate. Check out our <a href="/resources/documents#rentals">loan agreement</a> for details on how this works.</p>
             <p><strong>All of our spaces are alcohol free during normal operation and regular business hours.</strong></p>
         </section>
