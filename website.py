@@ -18,7 +18,7 @@ with codecs.open('src/shared/businessinfo.html', 'r', encoding='utf-8') as f:
 
 with codecs.open('src/shared/footer.html', 'r', encoding='utf-8') as f:
     footer = f.read()
-    
+
 codeTest = re.compile(r'\d+\.yml$')
 ifTest = re.compile(r'#{if ([^}]+)}|#{/if}')
 ext = re.compile(r'([^\\/]*)\.yml')
