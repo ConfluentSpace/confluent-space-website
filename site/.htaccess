@@ -16,8 +16,8 @@ RewriteRule ^resources/3d-printers/?$ /3d-printers.html
 #RewriteRule ^resources/kilns/?$ /kilns.html
 RewriteRule ^resources/large-format-cncs/?$ /large-format-cncs.html
 RewriteRule ^calendar/?$ /calendar.html
-RewriteRule ^event/(.*)$ https://store.confluent.space/event/$1 [R=307]
-RewriteRule ^event/?$ https://store.confluent.space/event [R=307]
+RewriteRule ^event/(.*)$ /calendar.html
+RewriteRule ^event/?$ /calendar.html
 RewriteRule ^shop/?$ https://store.confluent.space/shop [R=307]
 RewriteRule ^product/(.*)$ https://store.confluent.space/product/$1 [R=307]
 RewriteRule ^product-category/(.*)$ https://store.confluent.space/product-category/$1 [R=307]
