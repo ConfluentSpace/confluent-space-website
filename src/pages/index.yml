@@ -31,7 +31,61 @@ content: |
         </div>
         <section id="memberships">
             <h3>Join Us!</h3>
-        <!--<table>
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Extended Access Membership</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Cost</th>
+                        <td>$75* + $35 setup fee</td>
+                    </tr>
+                    <tr>
+                        <th>Duration</th>
+                        <td>1 Month</td>
+                    </tr>
+                    <tr>
+                        <th>Access</th>
+                        <td><!--<br>-->7am-10pm Mon-Sun<!--<br>&nbsp;--></td>
+                    </tr>
+                    <tr>
+                        <th>Host Socials<!--***--></th>
+                        <td><i class="fa fa-check"><span>yes</span></i> (Once a Month)</td>
+                    </tr>
+                    <tr>
+                        <th>Art Supplies</th>
+                        <td><i class="fa fa-check"><span>yes</span></i></td>
+                    </tr>
+                    <tr>
+                        <th>3D Printers</th>
+                        <td><i class="fa fa-check"><span>yes</span></i></td>
+                    </tr>
+                    <tr>
+                        <th>Electronics Lab</th>
+                        <td><i class="fa fa-check"><span>yes</span></i></td>
+                    </tr>
+                    <tr>
+                        <th>Laser Cutter</th>
+                        <td><i class="fa fa-check"><span>yes</span></i></td>
+                    </tr>
+                    <tr>
+                        <th>Basic Shop Tools</th>
+                        <td><i class="fa fa-check"><span>yes</span></i></td>
+                    </tr>
+                    <tr>
+                        <th>Advanced Shop Tools</th>
+                        <td><i class="fa fa-check"><span>yes</span></i></td>
+                    </tr>
+                    <tr>
+                        <th>Large Format CNCs</th>
+                        <td><i class="fa fa-check"><span>yes</span></i></td>
+                    </tr>
+                </tbody>
+            </table><!--
+            <table>
                 <thead>
                     <tr>
                         <th></th>
@@ -40,7 +94,7 @@ content: |
                 </thead>
                 <tbody>
                     <tr>
-                        <th>Cost*</th>
+                        <th>Cost</th>
                         <td>$50 + $35 setup fee</td>
                     </tr>
                     <tr>
@@ -52,12 +106,24 @@ content: |
                         <td>Wed-Thur: 5-8pm<br>Fri: 10-8pm<br>Sat-Sun: 10-5pm</td>
                     </tr>
                     <tr>
-                        <th>Host Socials**</th>
+                        <th>Host Socials***</th>
                         <td><i class="fa fa-check"><span>yes</span></i> (Once a Month)</td>
                     </tr>
                     <tr>
-                        <th>Classes &amp; Workshops</th>
-                        <td><i class="fa fa-check"><span>yes</span></i> (Discounted)</td>
+                        <th>Art Supplies</th>
+                        <td><i class="fa fa-check"><span>yes</span></i></td>
+                    </tr>
+                    <tr>
+                        <th>3D Printers</th>
+                        <td><i class="fa fa-check"><span>yes</span></i></td>
+                    </tr>
+                    <tr>
+                        <th>Electronics Lab</th>
+                        <td><i class="fa fa-check"><span>yes</span></i></td>
+                    </tr>
+                    <tr>
+                        <th>Laser Cutter</th>
+                        <td><i class="fa fa-check"><span>yes</span></i></td>
                     </tr>
                     <tr>
                         <th>Basic Shop Tools</th>
@@ -65,18 +131,10 @@ content: |
                     </tr>
                     <tr>
                         <th>Advanced Shop Tools</th>
-                        <td><i class="fa fa-check"><span>yes</span></i> (After Training)</td>
-                    </tr>
-                    <tr>
-                        <th>Electronics Lab</th>
                         <td><i class="fa fa-check"><span>yes</span></i></td>
                     </tr>
                     <tr>
-                        <th>Art Supplies</th>
-                        <td><i class="fa fa-check"><span>yes</span></i></td>
-                    </tr>
-                    <tr>
-                        <th>Laser Cutter</th>
+                        <th>Large Format CNCs</th>
                         <td><i class="fa fa-check"><span>yes</span></i></td>
                     </tr>
                 </tbody>
@@ -85,13 +143,13 @@ content: |
                 <thead>
                     <tr>
                         <th></th>
-                        <th>Extended Access Membership</th>
+                        <th>Gallery &amp; Garage Access Membership</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th>Cost*</th>
-                        <td>$75 + $35 setup fee</td>
+                        <th>Cost</th>
+                        <td>$35 + $35 setup fee</td>
                     </tr>
                     <tr>
                         <th>Duration</th>
@@ -99,53 +157,44 @@ content: |
                     </tr>
                     <tr>
                         <th>Access</th>
-                        <td><!--<br>-->7am-10pm Mon-Sun<!--<br>&nbsp;--></td>
+                        <td>8 hours a week**</td>
                     </tr>
                     <tr>
-                        <th>Host Socials**</th>
+                        <th>Host Socials<!--***--></th>
                         <td><i class="fa fa-check"><span>yes</span></i> (Once a Month)</td>
-                    </tr>
-                    <tr>
-                        <th>Classes &amp; Workshops</th>
-                        <td><i class="fa fa-check"><span>yes</span></i> (Discounted)</td>
-                    </tr>
-                    <tr>
-                        <th>Basic Shop Tools</th>
-                        <td><i class="fa fa-check"><span>yes</span></i></td>
-                    </tr>
-                    <tr>
-                        <th>Advanced Shop Tools</th>
-                        <td><i class="fa fa-check"><span>yes</span></i> (After Training)</td>
-                    </tr>
-                    <tr>
-                        <th>Electronics Lab</th>
-                        <td><i class="fa fa-check"><span>yes</span></i></td>
                     </tr>
                     <tr>
                         <th>Art Supplies</th>
                         <td><i class="fa fa-check"><span>yes</span></i></td>
                     </tr>
                     <tr>
-                        <th>Laser Cutter</th>
+                        <th>3D Printers</th>
                         <td><i class="fa fa-check"><span>yes</span></i></td>
                     </tr>
-                </tbody>
-            </table><!--
-         --><table>
-                <thead>
                     <tr>
-                        <th style="background: none"></th>
-                        <th style="background: none"></th>
+                        <th>Electronics Lab</th>
+                        <td><span aria-label="No">&nbsp;</span></td>
                     </tr>
-                </thead>
-                <tbody>
                     <tr>
-                        <th style="height: 19em; background: none"></th>
-                        <td style="height: 19em; white-space: normal; background: none; color: white">Stay tuned!<br>We’re working to make this more accessible for when we’re allowed to reopen further.</td>
+                        <th>Laser Cutter</th>
+                        <td><span aria-label="No">&nbsp;</span></td>
+                    </tr>
+                    <tr>
+                        <th>Basic Shop Tools</th>
+                        <td><span aria-label="No">&nbsp;</span></td>
+                    </tr>
+                    <tr>
+                        <th>Advanced Shop Tools</th>
+                        <td><span aria-label="No">&nbsp;</span></td>
+                    </tr>
+                    <tr>
+                        <th>Large Format CNCs</th>
+                        <td><span aria-label="No">&nbsp;</span></td>
                     </tr>
                 </tbody>
             </table>
-            <p class="fineprint">* We offer a 15% discount to groups of two or more people. Any fees are not discounted. Groups must pay for all their members together and they must have the same membership level.</p>
-            <p class="fineprint">** Only one member required to host. Other attendees can be non-members. Must be open to the public.</p>
+            <p class="fineprint">* We offer a 15% discount to groups of two or more people. Any fees are not discounted. Groups must pay for all their members together. Only available for Extended Access memberships.</p>
+            <p class="fineprint">** Scheduled in advance by you. Schedule changes must be reasonable and not too frequent.</p>
+            <!--<p class="fineprint">*** Only one member required to host. Other attendees can be non-members. Must be open to the public.</p>-->
             <p>View our <a href="/resources/documents#membership">membership agreement</a> and <a href="/resources/documents#membership">extended access agreement</a> online.</p>
         </section>
