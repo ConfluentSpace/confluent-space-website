@@ -560,16 +560,23 @@ body > section:last-of-type .page:last-child, body > section:last-of-type .page-
     background: #f0f0f0;
 }
 
-#memberships thead tr:first-child th {
+#memberships thead tr:first-child th, #memberships tr.soft-start td {
     border-radius: 5px 5px 0 0;
 }
 
-#memberships tr:last-child td {
+#memberships tr:last-child td, #memberships tr.soft-end td {
     border-radius: 0 0 5px 5px;
 }
 
 #memberships td a {
     color: inherit;
+}
+
+#memberships tr.soft-end + tr td {
+    padding: .5em .5em;
+    font-weight: bold;
+    color: white;
+    background: none;
 }
 
 .fineprint {
@@ -592,7 +599,7 @@ body > section:last-of-type .page:last-child, body > section:last-of-type .page-
 
 @media (max-width: 830px) and (min-width: 791px) {
     #memberships table:first-of-type, #memberships table:first-of-type + table, #memberships table:first-of-type th:last-child, #memberships table:first-of-type td:last-child, #memberships table:first-of-type + table th:last-child, #memberships table:first-of-type + table td:last-child {
-        width: 159px;
+/*        width: 159px;*/
     }
 }
 
@@ -635,7 +642,7 @@ body > section:last-of-type .page:last-child, body > section:last-of-type .page-
     }
 
     #memberships table, #memberships table ~ table {
-        margin-top: 1em;
+        margin-top: 3em;
         margin-left: auto;
         margin-right: 2em;
     }
@@ -657,6 +664,10 @@ body > section:last-of-type .page:last-child, body > section:last-of-type .page-
 
     #memberships table td {
         line-height: 2.8em;
+    }
+
+    #memberships table tr.soft-end + tr td {
+        padding: 0 .5em;
     }
 }
 

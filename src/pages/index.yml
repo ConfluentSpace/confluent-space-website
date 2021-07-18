@@ -63,20 +63,28 @@ content: |
                         <th>3D Printers</th>
                         <td><i class="fa fa-check"><span>yes</span></i></td>
                     </tr>
-                    <tr>
+                    <tr class="soft-end">
                         <th>Electronics Lab</th>
                         <td><i class="fa fa-check"><span>yes</span></i></td>
                     </tr>
                     <tr>
+                        <th></th>
+                        <td>(With Training)</td>
+                    </tr>
+                    <tr class="soft-start">
                         <th>Laser Cutter</th>
                         <td><i class="fa fa-check"><span>yes</span></i></td>
                     </tr>
                     <tr>
-                        <th>Basic Shop Tools</th>
+                        <th>Woodshop</th>
                         <td><i class="fa fa-check"><span>yes</span></i></td>
                     </tr>
                     <tr>
-                        <th>Advanced Shop Tools</th>
+                        <th>Metalworking Shop</th>
+                        <td><i class="fa fa-check"><span>yes</span></i></td>
+                    </tr>
+                    <tr>
+                        <th>Machine Shop</th>
                         <td><i class="fa fa-check"><span>yes</span></i></td>
                     </tr>
                     <tr>
@@ -117,21 +125,29 @@ content: |
                         <th>3D Printers</th>
                         <td><i class="fa fa-check"><span>yes</span></i></td>
                     </tr>
-                    <tr>
+                    <tr class="soft-end">
                         <th>Electronics Lab</th>
                         <td><i class="fa fa-check"><span>yes</span></i></td>
                     </tr>
                     <tr>
+                        <th></th>
+                        <td>(With Training)</td>
+                    </tr>
+                    <tr class="soft-start">
                         <th>Laser Cutter</th>
                         <td><i class="fa fa-check"><span>yes</span></i></td>
                     </tr>
                     <tr>
-                        <th>Basic Shop Tools</th>
+                        <th>Woodshop</th>
                         <td><i class="fa fa-check"><span>yes</span></i></td>
                     </tr>
                     <tr>
-                        <th>Advanced Shop Tools</th>
+                        <th>Metalworking Shop</th>
                         <td><i class="fa fa-check"><span>yes</span></i></td>
+                    </tr>
+                    <tr>
+                        <th>Machine Shop</th>
+                        <td><span aria-label="No">&nbsp;</span></td>
                     </tr>
                     <tr>
                         <th>Large Format CNCs</th>
@@ -171,20 +187,28 @@ content: |
                         <th>3D Printers</th>
                         <td><i class="fa fa-check"><span>yes</span></i></td>
                     </tr>
-                    <tr>
+                    <tr class="soft-end">
                         <th>Electronics Lab</th>
                         <td><span aria-label="No">&nbsp;</span></td>
                     </tr>
                     <tr>
+                        <th></th>
+                        <td>(With Training)</td>
+                    </tr>
+                    <tr class="soft-start">
                         <th>Laser Cutter</th>
                         <td><span aria-label="No">&nbsp;</span></td>
                     </tr>
                     <tr>
-                        <th>Basic Shop Tools</th>
+                        <th>Woodshop</th>
                         <td><span aria-label="No">&nbsp;</span></td>
                     </tr>
                     <tr>
-                        <th>Advanced Shop Tools</th>
+                        <th>Metalworking Shop</th>
+                        <td><span aria-label="No">&nbsp;</span></td>
+                    </tr>
+                    <tr>
+                        <th>Machine Shop</th>
                         <td><span aria-label="No">&nbsp;</span></td>
                     </tr>
                     <tr>
