@@ -97,7 +97,8 @@ header h1 {
     width: 350px;
     height: 46px;
     margin: 40px 0 0 40px;
-    text-indent: -1000px;
+    text-indent: -1000%;
+    text-indent: -101vw;
     background: url(../images/textlogo.png) no-repeat 0 0 / 100% auto;
 }
 
