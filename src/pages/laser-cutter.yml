@@ -11,7 +11,6 @@ content: |
                 <li>
                     <a href="#specifications">Specifications</a>
                     <ul>
-                        <li><a href="#kerf">Kerf</a></li>
                         <li><a href="#files">Software and File Formats</a></li>
                     </ul>
                 </li>
@@ -24,8 +23,6 @@ content: |
                         <li><a href="#thickness">Material Thickness</a></li>
                     </ul>
                 </li>
-                <li><a href="#rates">Laser (Time) Rates</a></li>
-                <li><a href="#supplies">Purchasable Supplies</a></li>
                 <li><a href="/resources/laser-cutter/tips">Tips &amp; Tricks</a></li>
             </ul>
         </nav>
@@ -43,82 +40,48 @@ content: |
                     <tbody>
                         <tr>
                             <td>Type</td>
-                            <td>Epilog Mini 24</td>
+                            <td>Generic Laser Cutter</td>
                             <td></td>
                         </tr>
                         <tr>
                             <td>Working area</td>
-                            <td>24″ x 12″ (610 x 305 mm)</td>
+                            <td>54″ x 37.5″ (1,375 x 952 mm)</td>
                             <td></td>
                         </tr>
                         <tr>
                             <td>Maximum Material Thickness</td>
-                            <td>5.5"</td>
-                            <td>¼″ is the thickest material cuttable; see the <a href="#thickness">policy section</a></td>
+                            <td>??″</td>
+                            <td>??″ is the thickest material cuttable; see the <a href="#thickness">policy section</a></td>
                         </tr>
                         <tr>
                             <td>Type of Laser</td>
-                            <td>60 Watt CO<sub>2</sub> (<span class="_Tgc">λ</span> 10.6 microns)</td>
+                            <td>100 Watt CO<sub>2</sub></td>
                             <td></td>
                         </tr>
                         <tr>
                             <td>Raster Image Resolution*</td>
-                            <td>75 to 1,200 dpi</td>
+                            <td>?? to ?? dpi</td>
                             <td>Does not apply to <a href="https://en.wikipedia.org/wiki/Vector_graphics">vector graphics</a></td>
-                        </tr>
-                        <tr>
-                            <td>Repeatability</td>
-                            <td>± .0005″ (.0127 mm)</td>
-                            <td>Largest variation between two runs with the same starting point</td>
-                        </tr>
-                        <tr>
-                            <td>Accuracy</td>
-                            <td>± .01″ (.254 mm) over the entire table</td>
-                            <td>Largest variation between expected and actual location of the laser head</td>
                         </tr>
                     </tbody>
                 </table>
                 <p class="footnote">* Raster images (graphics) are GIFs, JPGs, PNGs, and other <a href="https://en.wikipedia.org/wiki/Raster_graphics">pixel-based formats</a>.</p>
-                <p>Some of these specs are shamelessly borrowed from <a href="https://www.epiloglaser.com/products/legend-laser-series.htm">their website</a>.</p>
-                <h4 id="kerf">Kerf</h4>
-                <p>Just like regular saws, cuts made with a laser have a thickness commonly known as “kerf”. The following values have been empirically determined on our laser cutter and can be used to adjust designs to achieve better sizing or fit if desired.</p>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Material</th>
-                            <th>Kerf</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>⅛″ Baltic birch plywood</td>
-                            <td>.15 mm (~.006")</td>
-                        </tr>
-                        <tr>
-                            <td>⅛″ Acrylic</td>
-                            <td>.2 mm (~.008")</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <p>Please note kerf is also dependent on material thickness, the focal point, and the settings used. When the laser beam is focused to a point on the surface of a material, cuts will be tapered with the smallest kerf on top and the largest kerf on the bottom. If the focal point is manually set to be inside the material the cut will be an hourglass-shape with a similar kerf on top and bottom. This is because the laser beam spreads out before and after this focal point. This effect will be less noticeable as the material gets thinner. In addition, slower more powerful settings will burn away more material resulting in a larger kerf.</p>
                 <h4 id="files">Software and File Formats</h4>
-                <p>We use CorelDRAW X8 to interface with the laser cutter. Design finishing and creation can be done in CorelDRAW, but it is recommended you finish all major work in your software of choice before coming to the space. CorelDRAW accepts the following major formats: <a href="https://en.wikipedia.org/wiki/Adobe_Illustrator">AI</a>, <a href="https://en.wikipedia.org/wiki/CorelDRAW">CDR</a>, <a href="https://en.wikipedia.org/wiki/.dwg">DWG</a>, <a href="https://en.wikipedia.org/wiki/AutoCAD_DXF">DXF</a>, <a href="https://en.wikipedia.org/wiki/Encapsulated_PostScript">EPS</a>, PDF, <a href="https://en.wikipedia.org/wiki/SVG">SVG</a>, and common raster formats (JPG, PNG). For a more complete list, see <a href="https://support.corel.com/hc/en-us/articles/216435817-Supported-file-formats-for-CorelDRAW-Graphics-Suite-X5">the knowledge base page on CorelDRAW X5</a>. (We couldn't find one for X8, but they should be similar.)</p>
-                <p>Do note that some formats, such as PDF, may be treated as if they were an image rather than a vector. Also, SVG may not always import correctly but <a href="https://inkscape.org/en/">Inkscape</a>, a free vector graphics design program, is installed on the laser cutter's computer and can be used to save the SVG to another format. If your SVG has layers you will likely lose them when doing this.</p>
-                <p>You can use <a href="https://en.wikipedia.org/wiki/Computer-aided_design">CAD</a> programs, as opposed to vector or raster graphics programs, to design for the laser cutter. If you do, your best bet is to export to the DWG or DXF formats. Users of other programs should try exporting to EPS if their program's native format is not importable by CorelDRAW. Some raster images can be traced with Inkscape and turned into a vector if you need to make cuts instead of engraving but it may be hard to achieve the desired results.</p>
+                <p>This section will be updated before the laser cutter is available for use with members.</p>
             </section>
         </div>
         <section>
             <h3 id="policy">Policy</h3>
             <p>This section reiterates the DOs, DON’Ts, and other policies related to using the laser cutter.</p>
             <h4 id="training">Training</h4>
-            <p>Anyone who wants to use the laser cutter must be trained. No exceptions. Training will be held regularly and you can find the next training on our <a href="https://confluent.space/calendar/">calendar</a>. If for some reason there isn’t one scheduled and you’d like to be trained, drop us a line <a href="mailto:make@confluent.space">by email</a> or <a href="https://www.facebook.com/ConfluentSpace/">through Facebook</a>. Training covers safety, how to use the laser cutter software, procedures when using the laser cutter, and other general tips. It does not cover how to create files suitable for use with the laser cutter. Look for other classes on our calendar to cover that. You will also need to sign our <a href="/resources/documents#tools">laser cutter agreement</a> after taking training.</p>
+            <p>Anyone who wants to use the laser cutter must be trained. No exceptions. Training is by appointment. Drop us a line <a href="mailto:make@confluent.space">by email</a>, <a href="https://www.facebook.com/ConfluentSpace/">through Facebook</a>, or on our Slack to get scheduled. Training covers safety, how to use the laser cutter software, procedures when using the laser cutter, and other general tips. It does not cover how to create files suitable for use with the laser cutter. You will also need to sign our <a href="/resources/documents#tools">laser cutter agreement</a> after taking training.</p>
             <h4 id="usage">Usage</h4>
             <p>You are expected to follow the rules outlined during training and to check in with the front desk before using the laser cutter. This is so the front desk can verify your training status and give you access to the laser computer. Failing to use the laser cutter properly and safely can result in being blocked from using it.</p>
             <p>If you would like to know if the laser cutter is currently in use, you can check the <a href="http://status.confluent.space">Confluent status page</a> for usage information on some of our tools.</p>
             <div id="materials">
                 <div>
                     <h4>Allowed Materials</h4>
-                    <p>Anything not on this list is forbidden. Contact Arthur McBain or leave a note to get in touch with the front desk if you’d like to discuss other materials. Please have a copy of the material’s <a href="https://en.wikipedia.org/wiki/Safety_data_sheet">MSDS</a> available.</p>
+                    <p>Anything not on this list is forbidden. Contact Confluent by email, Facebook, or in person during open hours if you’d like to discuss other materials. Please have a copy of the material’s <a href="https://en.wikipedia.org/wiki/Safety_data_sheet">MSDS</a> available.</p>
                     <ul>
                         <li>Acrylic (<a href="/resources/laser-cutter/materials#acrylic">where to buy</a>)</li>
                         <li>Delrin</li>
@@ -139,7 +102,7 @@ content: |
                 </div>
                 <div>
                     <h4>Forbidden Materials</h4>
-                    <p>Anything not on the allowed list is to be considered forbidden unless Arthur McBain has otherwise given explicit permission on a case by case basis. This list is therefore not to be taken as complete or all-inclusive.</p>
+                    <p>Anything not on the allowed list is to be considered forbidden unless Confluent has otherwise given explicit permission on a case by case basis. This list is therefore not to be taken as complete or all-inclusive.</p>
                     <ul>
                         <li>Polycarbonate</li>
                         <li>PVC</li>
@@ -166,19 +129,19 @@ content: |
                     <tbody>
                         <tr>
                             <td>Acrylic</td>
-                            <td>¼″ (~6 mm)</td>
+                            <td>??″ (~?? mm)</td>
                         </tr>
                         <tr>
                             <td>Delrin</td>
-                            <td>³⁄₁₆″ (~5 mm)</td>
+                            <td>??″ (~5 mm)</td>
                         </tr>
                         <tr>
                             <td>Plywood (Wood)</td>
-                            <td>¼″ (~6 mm)</td>
+                            <td>??″ (~6 mm)</td>
                         </tr>
                         <tr>
                             <td>Bamboo</td>
-                            <td>¼″ (~6 mm)</td>
+                            <td>??″ (~6 mm)</td>
                         </tr>
                         <tr>
                             <td>Glass</td>
@@ -192,63 +155,4 @@ content: |
                 </table>
                 <p>If your material isn’t listed, ask first instead of just trying it. The harder a material is the thinner the maximum thickness will be.</p>
             </div>
-        </section>
-        <div class="callout">
-            <section>
-                <h3 id="rates">Laser (Time) Rates</h3>
-                <p>These rates do not include materials. You must bring your own, subject to approval, or buy from Confluent. Failure to check in with the front desk after finishing with the laser cutter to pay for your use will result in a fine that must be paid before you can access the laser cutter again. Time is based on total usage of the laser cutter and the associated PC, i.e. the amount of time it could not be used by anyone else and not just time the machine spent on your jobs.</p>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Membership</th>
-                            <th>Cost</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                    <!--<tr>
-                            <td>Day Pass</td>
-                            <td>$10 for first ½-hour, $5 for every 10 minutes thereafter</td>
-                        </tr>
-                        <tr>
-                            <td>Standard Access Membership</td>
-                            <td>Free</td>
-                        </tr>-->
-                        <tr>
-                            <td>Extended Access Membership</td>
-                            <td>Free</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-        </div>
-        <section id="supplies">
-            <h3>Purchasable Supplies</h3>
-            <p>As a convenience Confluent has some supplies available for purchase. The items currently on offer and their prices are listed below. You can bring your own materials as long as they are on the approved list or have been previously approved.</p>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Material</th>
-                        <th>Size</th>
-                        <th>Cost</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Baltic birch plywood</td>
-                        <td>24″&nbsp;x 12″ (approx.)</td>
-                        <td>$5</td>
-                    </tr>
-                    <tr>
-                        <td>Acrylic</td>
-                        <td>17″&nbsp;x 11″ (approx.)</td>
-                        <td>$10</td>
-                    </tr>
-                    <tr>
-                        <td>Acrylic</td>
-                        <td>24″&nbsp;x 12″ (approx.)</td>
-                        <td>$15</td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>The current acrylic on hand varies in size, cost, and color. The values in the table are the maximums.</p>
         </section>

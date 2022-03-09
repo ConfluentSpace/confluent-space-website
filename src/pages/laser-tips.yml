@@ -34,7 +34,6 @@ content: |
             </aside>
             <p>Overburn generally occurs around the edges of a cut or engraved area. Sometimes people prefer this as it gives a “laser cut” character. However other times this effect can be considered undesirable, especially if it is amplified by the material. This can be partly resolved by lowering the frequency used for a cut, but this only works to a point: a too low frequency might not cut well enough or will produce other undesirable effects.</p>
             <p>Another approach is to use painter’s tape. A bunch of strips that touch but don’t overlap that cover the area being cut or engraved can prevent some overburn. If the engraving is deep, more layers are needed. Since gaps in the tape will look odd when removed later, it is preferable to offset extra layers to overlap and cover edges from the previous layer. Engraving settings may need to be changed to account for the tape to achieve the same look they had without the tape. Any settings which are too weak will result in partially removed tape and a residue.</p>
-            <p><strong>Painter’s tape is not suitable for engraving pictures using the automatic Epilog method</strong> as it engraves them using a lot of little points spaced close together or far apart at varying settings. This will make it hard to remove any remaining tape, potentially leave residues, and be likely to prevent the picture from coming out clearly in lighter areas.</p>
         </section>
         <div class="callout">
             <section>
