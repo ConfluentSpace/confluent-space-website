@@ -22,30 +22,20 @@ content: |
                 <ul>
                     <li>Reconfigurable tables and chairs</li>
                     <li>44″ display (with HDMI inputs and a Chromecast)</li>
-                    <li>Consumables (paint, paper, glue, …)*</li>
-                    <li>Miscellaneous art supplies (scissors, etc.)</li>
-                    <li>Paint brushes and palettes</li>
                 </ul>
-                <p class="footnote">* These are included as part of monthly memberships and may also be included as part of class costs. They cost extra for those with a day pass.</p>
             </section>
         </div>
         <section>
             <h3>Garage Space</h3>
             <p>The garage includes our various supplies and and other work areas. <strong>No alcohol is allowed in this space at any time.</strong></p>
-            <aside class="fixme">
+            <aside>
                  <img src="/images/pages/resources/garage.jpg" alt="Inside view of the garage">
             </aside>
             <ul>
                 <li>Large granite surface table (for working with very flat items)</li>
                 <li>Spray booth</li>
-                <li>Acrylic bender</li>
-                <li>Thin sheet metal cutter</li>
-                <li>Large format laser cutter</li>
                 <li>3D printers (see next section)</li>
             </ul>
-            <div class="extra-pages">
-                <a class="page-left" href="/resources/large-format-cncs">Large Format Laser Cutter Information</a>
-            </div>
         </section>
         <div class="callout extra-pages">
             <section>
@@ -131,7 +121,7 @@ content: |
                     <li>Metal slip roller (hand cranked; adjustable)</li>
                     <li>Welders (MIG wire feed, air stick welder)</li>
                     <li>Hand tools (screwdrivers, pliers, tape measures, etc.)</li>
-                    <li>Large format CNC plasma cutter (Awaiting rebuild)</li>
+                    <li>Large format CNC plasma cutter</li>
                 </ul>
                 <div class="extra-pages">
                     <a class="page-left" href="/resources/large-format-cncs">Large Format CNC Plasma Cutter Information</a>
